@@ -1,0 +1,874 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8">
+        <meta name="x-apple-disable-message-reformatting">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>*|MC:SUBJECT|*</title>
+        <style type="text/css">
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+        @media only screen and (max-width: 480px){
+            /* ===== TYPOGRAPHY ======== */
+            #bodyCell{padding: 0 !important;}
+            #templateContainer{width: 100% !important;}
+            .fluid{width: 100% !important; max-width: 100% !important;}
+            .fluid-content{display: block !important; width: 100% !important;}
+            /*display*/
+            .none{display: none !important;}
+            .block{display: block !important;}
+            /*wdith*/
+            .w-25{width: 25px !important;}
+            .w-50{width: 50px !important;}
+            .w-75{width: 75px !important;}
+            .w-100{width: 100px !important;}
+            .w-125{width: 125px !important;}
+            .w-150{width: 150px !important;}
+            .w-175{width: 175px !important;}
+            .w-200{width: 200px !important;}
+            .w-225{width: 225px !important;}
+            .w-250{width: 250px !important;}
+            .w-275{width: 275px !important;}
+            .w-300{width: 300px !important;}
+            /*padding*/
+            .p-0{padding: 0 !important;}
+            .pt-0{padding-top: 0 !important;}
+            .pb-0{padding-bottom: 0 !important;}
+            .pr-0{padding-right: 0 !important;}
+            .pl-0{padding-left: 0 !important;}
+
+            .p-10{padding: 10px !important;}
+            .pt-10{padding-top: 10px !important;}
+            .pb-10{padding-bottom: 10px !important;}
+            .pr-10{padding-right: 10px !important;}
+            .pl-10{padding-left: 10px !important;}
+
+            .p-15{padding: 15px !important;}
+            .pt-15{padding-top: 15px !important;}
+            .pb-15{padding-bottom: 15px !important;}
+            .pr-15{padding-right: 15px !important;}
+            .pl-15{padding-left: 15px !important;}
+
+            .p-20{padding: 20px !important;}
+            .pt-20{padding-top: 20px !important;}
+            .pb-20{padding-bottom: 20px !important;}
+            .pr-20{padding-right: 20px !important;}
+            .pl-20{padding-left: 20px !important;}
+
+            .p-25{padding: 25px !important;}
+            .pt-25{padding-top: 25px !important;}
+            .pb-25{padding-bottom: 25px !important;}
+            .pr-25{padding-right: 25px !important;}
+            .pl-25{padding-left: 25px !important;}
+
+            .p-30{padding: 30px !important;}
+            .pt-30{padding-top: 30px !important;}
+            .pb-30{padding-bottom: 30px !important;}
+            .pr-30{padding-right: 30px !important;}
+            .pl-30{padding-left: 30px !important;}
+
+            .p-35{padding: 35px !important;}
+            .pt-35{padding-top: 35px !important;}
+            .pb-35{padding-bottom: 35px !important;}
+            .pr-35{padding-right: 35px !important;}
+            .pl-35{padding-left: 35px !important;}
+
+            .p-40{padding: 40px !important;}
+            .pt-40{padding-top: 40px !important;}
+            .pb-40{padding-bottom: 40px !important;}
+            .pr-40{padding-right: 40px !important;}
+            .pl-40{padding-left: 40px !important;}
+
+            .p-45{padding: 45px !important;}
+            .pt-45{padding-top: 45px !important;}
+            .pb-45{padding-bottom: 45px !important;}
+            .pr-45{padding-right: 45px !important;}
+            .pl-45{padding-left: 45px !important;}
+
+            .p-50{padding: 50px !important;}
+            .pt-50{padding-top: 50px !important;}
+            .pb-50{padding-bottom: 50px !important;}
+            .pr-50{padding-right: 50px !important;}
+            .pl-50{padding-left: 50px !important;}
+
+            .px-0{padding-left: 0px !important; padding-right: 0px !important;}
+            .py-0{padding-top: 0px !important; padding-bottom: 0px !important;}
+
+            .px-10{padding-left: 10px !important; padding-right: 10px !important;}
+            .py-10{padding-top: 10px !important; padding-bottom: 10px !important;}
+
+            .px-15{padding-left: 15px !important; padding-right: 15px !important;}
+            .py-15{padding-top: 15px !important; padding-bottom: 15px !important;}
+
+            .px-20{padding-left: 20px !important; padding-right: 20px !important;}
+            .py-20{padding-top: 20px !important; padding-bottom: 20px !important;}
+
+            .px-25{padding-left: 25px !important; padding-right: 25px !important;}
+            .py-25{padding-top: 25px !important; padding-bottom: 25px !important;}
+
+            .px-30{padding-left: 30px !important; padding-right: 30px !important;}
+            .py-30{padding-top: 30px !important; padding-bottom: 30px !important;}
+
+            .px-35{padding-left: 35px !important; padding-right: 35px !important;}
+            .py-35{padding-top: 35px !important; padding-bottom: 35px !important;}
+
+            .px-40{padding-left: 40px !important; padding-right: 40px !important;}
+            .py-40{padding-top: 40px !important; padding-bottom: 40px !important;}
+
+            .px-45{padding-left: 45px !important; padding-right: 45px !important;}
+            .py-45{padding-top: 45px !important; padding-bottom: 45px !important;}
+
+            .px-50{padding-left: 50px !important; padding-right: 50px !important;}
+            .py-50{padding-top: 50px !important; padding-bottom: 50px !important;}
+
+            /*text center*/
+            .center{text-align: center !important;}
+            .left{text-align: left !important;}
+            .right{text-align: right !important;}
+            .valign-middle{vertical-align: middle !important;}
+            .valign-top{vertical-align: top !important;}
+            .valign-bottom{vertical-align: bottom !important;}
+
+            /*font-size*/
+            .f-8{font-size: 8px !important;}
+            .f-9{font-size: 9px !important;}
+            .f-10{font-size: 10px !important;}
+            .f-11{font-size: 11px !important;}
+            .f-12{font-size: 12px !important;}
+            .f-13{font-size: 13px !important;}
+            .f-14{font-size: 14px !important;}
+            .f-15{font-size: 15px !important;}
+            .f-16{font-size: 16px !important;}
+            .f-17{font-size: 17px !important;}
+            .f-18{font-size: 18px !important;}
+            .f-19{font-size: 19px !important;}
+            .f-20{font-size: 20px !important;}
+            .f-21{font-size: 21px !important;}
+            .f-22{font-size: 22px !important;}
+            .f-23{font-size: 23px !important;}
+            .f-24{font-size: 24px !important;}
+            .f-25{font-size: 25px !important;}
+            .f-26{font-size: 26px !important;}
+            .f-27{font-size: 27px !important;}
+            .f-28{font-size: 28px !important;}
+            .f-29{font-size: 29px !important;}
+            .f-30{font-size: 30px !important;}
+            .f-32{font-size: 32px !important;}
+            .f-34{font-size: 34px !important;}
+            .f-36{font-size: 36px !important;}
+            .f-38{font-size: 38px !important;}
+            .f-40{font-size: 40px !important;}
+            .f-42{font-size: 42px !important;}
+            .f-44{font-size: 44px !important;}
+            .f-46{font-size: 46px !important;}
+            .f-48{font-size: 48px !important;}
+            .f-50{font-size: 50px !important;}
+
+            /*fontwight*/
+            .bold{font-weight: 700 !important;}
+            .medium{font-weight: 500 !important;}
+            .semi-bold{font-weight: 600 !important;}
+            .black{font-weight: 900 !important;}
+            .height_auto{height: auto !important;}
+            .h-90{height: 90px !important;}
+            .h-120{height: 120px !important;}
+            /* ===== TYPOGRAPHY ======== */
+            }
+        </style>
+    </head>
+    <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0" bgcolor="#f1efef" style="font-family: 'Inter', sans-serif; padding: 0; margin: 0;"  yahoo="fix">
+        <center>
+            <table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable" style="background-color: #f1efef;">
+                <tr>
+                    <td align="center" valign="top" id="bodyCell" style="padding-top: 20px; padding-bottom: 20px;">
+                        <!-- BEGIN TEMPLATE // -->
+                        <table border="0" cellpadding="0" cellspacing="0" width="600" id="templateContainer" style="background-color: #fff;">
+                            <!-- PREHEADER PART -->
+                            <tr>
+                                <td align="center" background="https://i.ibb.co/cXP4Tmx/top-bg.png" width="600" class="h-120" height="170" valign="top" style="background: url('https://i.ibb.co/cXP4Tmx/top-bg.png') no-repeat; background-size: 100%; background-position: left top;">
+                                <!--[if gte mso 9]>
+                                <v:image xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style=" border: 0;display: inline-block; width: 450pt; height: 150px;" src="https://i.ibb.co/cXP4Tmx/top-bg.png" />                
+                                <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style=" border: 0;display: inline-block;position: absolute; width: 450pt; height:150pt;">
+                                <v:fill  opacity="0%" color="#000000”  />
+                                <v:textbox inset="0,0,0,0">
+                                <![endif]-->
+                                <div>
+                                    <div style="font-size: 16px;">
+                                        <table role="presentation" cellpadding="0" cellspacing="0" border="0" height="120" class="h-90" align="center">
+                                            <tr>
+                                                <td align="center" valign="bottom" height="100" style="font-size: 14px; color: #3D46FA;">
+                                                	<strong>NEWSLETTER</strong> - ISSUE 24
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                                <!--[if gte mso 9]>
+                                </v:textbox>
+                                </v:fill>
+                                </v:rect>
+                                </v:image>
+                                <![endif]-->
+                                </td>
+                            </tr>
+                            <!-- PREHEADER PART FINISH-->
+
+                            <!-- block 1 -->
+                            <tr>
+                                <td align="left" valign="top" class="fluid" style="padding-left: 20px; padding-right: 20px; padding-bottom: 40px;">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <tr>
+                                            <td align="left" valign="top" style="font-family: 'Inter', sans-serif; font-size: 12px; color: #18164C; line-height: 150%;font-weight: normal; padding-bottom: 15px;">
+                                            	Hey folks,
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left" valign="top" style="font-family: 'Inter', sans-serif; font-size: 12px; color: #18164C; line-height: 150%;font-weight: normal; padding-bottom: 15px;">
+                                            	As this very different year finally comes to an end, ecommerce merchants are preparing for the long-awaited 2020 holiday season - which is expected to be like no other!
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left" valign="top" style="font-family: 'Inter', sans-serif; font-size: 12px; color: #18164C; line-height: 150%;font-weight: normal; padding-bottom: 15px;">
+                                            	And don't just take my word for it. According to deloitte, ecommerce sales will grow as much as 35% this holiday season! However, here at Weglot, we decided to do things a bit differently. Keep on reading to find out all about it and what else we've been up to this month.
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- block 1 -->
+
+                            <!-- block 2 -->
+                            <tr>
+                                <td align="left" valign="top" class="fluid" style="padding-left: 20px; padding-right: 20px;">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <tr>
+                                            <td align="left" valign="top" bgcolor="#F8F8FF" style="padding-left: 20px; padding-right: 20px; padding-top: 30px; padding-bottom: 30px; border-radius: 5px;">
+                                            	<table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                            		<tr>
+                                            			<td align="left" valign="top">
+                                            				<table border="0" cellspacing="0" cellpadding="0" width="100%">
+			                                            		<tr>
+			                                            			<td align="left" valign="middle" class="fluid-content block" style="display: none;">
+			                                            				<img src="https://i.ibb.co/BV285yD/Illustration-2.png" width="200"  border="0" style="max-width: 200px; vertical-align: middle;" alt="">
+			                                            			</td>
+			                                            			<td align="left" valign="middle" class="fluid-content" style="font-family: 'Inter', sans-serif; font-size: 50px; font-style: normal; font-weight: 700; line-height: 120%; letter-spacing: 0px; text-align: left; color: #18164C;">
+			                                            				<span style="color: #3D46FA;">Highlight</span> of <br> the Month
+			                                            			</td>
+			                                            			<td align="right" valign="middle" class="fluid-content none">
+			                                            				<img src="https://i.ibb.co/BV285yD/Illustration-2.png" width="200"  border="0" style="max-width: 200px; vertical-align: middle;" alt="">
+			                                            			</td>
+			                                            		</tr>
+			                                            	</table>
+                                            			</td>
+                                            		</tr>
+                                            		<tr>
+                                            			<td align="left" valign="top" style="font-family: 'Inter', sans-serif; font-size: 12px; font-style: normal; font-weight: 700; line-height: 150%; letter-spacing: 0px; text-align: left; color: #18164C; padding-bottom: 15px; padding-top: 15px;">
+                                            				Weglot Black Friday 2020
+                                            			</td>
+                                            		</tr>
+                                            		<tr>
+                                            			<td align="left" valign="top" style="font-family: 'Inter', sans-serif; font-size: 12px; font-style: normal; font-weight: 400; line-height: 150%; letter-spacing: 0px; text-align: left; color: #18164C;padding-bottom: 15px;">
+                                            				We thought long and hard about what we wanted to offer - but considering the challenging year everyone has experienced we decided not to give any discount on Weglot plans.
+                                            			</td>
+                                            		</tr>
+                                            		<tr>
+                                            			<td align="left" valign="top" style="font-family: 'Inter', sans-serif; font-size: 12px; font-style: normal; font-weight: 400; line-height: 150%; letter-spacing: 0px; text-align: left; color: #18164C;padding-bottom: 15px;">
+                                            				Instead, we're going to be donating 50% of all sales made on Black Friday and Cyber Monday to global and local organizations helping to make a difference to those impacted by the pandemic.
+                                            			</td>
+                                            		</tr>
+                                            		<tr>
+                                            			<td align="left" valign="top" style="padding-top: 15px;">
+                                        				    <div>
+															    <!--[if mso]>
+															    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://www.EXAMPLE.com/" style="height:35px;v-text-anchor:middle;width:110px;" arcsize="50%" stroke="f" fillcolor="#3D46FB">
+															        <w:anchorlock/>
+															        <center style="color:#ffffff;font-weight: normal; font-family:'Inter',sans-serif;">
+															            Read now
+															        </center>
+															    </v:roundrect>
+															    <![endif]-->
+															    <!--[if !mso]> <!-->
+															    <table cellspacing="0" cellpadding="0" border="0"> 
+																    <tr>
+																        <td align="center" width="110" valign="middle" height="35" bgcolor="#3D46FB" style="-webkit-border-radius: 50px; -moz-border-radius: 50px; border-radius: 50px; color: #ffffff; display: block;">
+																            <a href="http://www.EXAMPLE.com/" target="_blank" style="color: #ffffff; font-size:12px; font-weight: normal; font-family:'Inter',sans-serif; text-decoration: none; line-height:35px; width:100%; display:inline-block">
+																                Read now
+																            </a>
+																        </td>
+																    </tr> 
+																</table>
+															    <!-- <![endif]-->
+															</div>
+                                            			</td>
+                                            		</tr>	
+                                            	</table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- block 2 -->
+
+                            <!-- block 3 -->
+                            <tr>
+                                <td align="left" valign="top" class="fluid" style="padding-left: 20px; padding-right: 20px; padding-top: 50px; padding-bottom: 50px;">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <tr>
+                                            <td align="left" valign="top" style="font-family: 'Inter', sans-serif; color: #18164C; font-size: 25px; font-weight: bold; line-height: 100%; padding-bottom: 15px;">
+                                            	Top articles from the blog
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                        	<td align="left" valign="top">
+                                        		<table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        			<tr>
+                                        				<!-- column one -->
+                                        				<td align="left" valign="top" class="fluid-content">
+                                        					<table width="170" border="0" cellspacing="0" cellpadding="0" class="fluid center">
+                                        						<tr>
+                                        							<td align="left" valign="top">
+                                        								<a href="#" target="_blank">
+                                        									<img src="https://i.ibb.co/L13Jnwp/Frame-165.png" width="170" class="fluid" border="0" style="max-width: 170px; vertical-align: middle;" alt="">
+                                        								</a>
+                                        							</td>
+                                        						</tr>
+                                        						<tr>
+                                        							<td align="left" valign="top" class="px-20 py-20" style="padding-left: 7px; padding-right: 7px; padding-top: 7px; padding-bottom: 7px; box-shadow: 0px 5px 7px #0000000d; border-radius: 0 0 5px 5px;">
+                                        								<table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        									<tr>
+                                        										<td align="left" valign="top"  style="font-family: 'Inter', sans-serif; font-size: 12px; color: #18164C; line-height: 150%;font-weight: 500; padding-bottom: 10px;">
+                                        											<a href="#" target="_blank" style="color: #18164C; text-decoration: none;" class="f-16">
+                                        												International ecommerce: 35 wats to increase your conversion rate
+                                        											</a>
+                                        										</td>
+                                        									</tr>
+                                        									<tr>
+                                        										<td align="left" valign="top" class="f-13"  style="font-family: 'Inter', sans-serif; font-size: 11px; color: #18164C; line-height: 150%;font-weight: 400; padding-bottom: 10px;">
+                                        											Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Dignissimos, ipsum earum qui magnam.
+                                        										</td>
+                                        									</tr>
+                                        								</table>
+                                        							</td>
+                                        						</tr>
+                                        					</table>
+                                        				</td>
+                                        				<!-- column two -->
+                                        				<td align="left" valign="top" class="fluid-content pt-20">
+                                        					<table width="170" border="0" align="center" cellspacing="0" class="fluid center" cellpadding="0">
+                                        						<tr>
+                                        							<td align="left" valign="top">
+                                        								<a href="#" target="_blank">
+                                        									<img src="https://i.ibb.co/dmnyRCv/Frame-165-1.png" width="170" class="fluid" border="0" style="max-width: 170px; vertical-align: middle;" alt="">
+                                        								</a>
+                                        							</td>
+                                        						</tr>
+                                        						<tr>
+                                        							<td align="left" valign="top" class="px-20 py-20" style="padding-left: 7px; padding-right: 7px; padding-top: 7px; padding-bottom: 7px; box-shadow: 0px 5px 7px #0000000d; border-radius: 0 0 5px 5px;">
+                                        								<table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        									<tr>
+                                        										<td align="left" valign="top"  style="font-family: 'Inter', sans-serif; font-size: 12px; color: #18164C; line-height: 150%;font-weight: 500; padding-bottom: 10px;">
+                                        											<a href="#" target="_blank" class="f-16" style="color: #18164C; text-decoration: none;">
+                                        												Six Ecommerce trends to track in 2020
+                                        											</a>
+                                        										</td>
+                                        									</tr>
+                                        									<tr>
+                                        										<td align="left" valign="top" class="f-13" style="font-family: 'Inter', sans-serif; font-size: 11px; color: #18164C; line-height: 150%;font-weight: 400; padding-bottom: 10px;">
+                                        											Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Dignissimos, ipsum earum qui magnam.
+                                        										</td>
+                                        									</tr>
+                                        								</table>
+                                        							</td>
+                                        						</tr>
+                                        					</table>
+                                        				</td>
+                                        				<!-- column three -->
+                                        				<td align="left" valign="top" class="fluid-content pt-20">
+                                        					<table width="170" border="0" cellspacing="0" align="right" class="fluid center" cellpadding="0">
+                                        						<tr>
+                                        							<td align="left" valign="top">
+                                        								<a href="#" target="_blank">
+                                        									<img src="https://i.ibb.co/wRd7ND7/Frame-165-2.png" width="170" class="fluid" border="0" style="max-width: 170px; vertical-align: middle;" alt="">
+                                        								</a>
+                                        							</td>
+                                        						</tr>
+                                        						<tr>
+                                        							<td align="left" valign="top" class="px-20 py-20" style="padding-left: 7px; padding-right: 7px; padding-top: 7px; padding-bottom: 7px; box-shadow: 0px 5px 7px #0000000d; border-radius: 0 0 5px 5px;">
+                                        								<table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        									<tr>
+                                        										<td align="left" valign="top"  style="font-family: 'Inter', sans-serif; font-size: 12px; color: #18164C; line-height: 130%;font-weight: 500; padding-bottom: 10px;">
+                                        											<a href="#" target="_blank" class="f-16" style="color: #18164C; text-decoration: none;">
+                                        												International ecommerce: 35 wats to increase your conversion rate
+                                        											</a>
+                                        										</td>
+                                        									</tr>
+                                        									<tr>
+                                        										<td align="left" valign="top" class="f-13"  style="font-family: 'Inter', sans-serif; font-size: 11px; color: #18164C; line-height: 150%;font-weight: 400; padding-bottom: 10px;">
+                                        											Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Dignissimos, ipsum earum qui magnam.
+                                        										</td>
+                                        									</tr>
+                                        								</table>
+                                        							</td>
+                                        						</tr>
+                                        					</table>
+                                        				</td>
+                                        			</tr>
+                                        		</table>
+                                        	</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- block 3 -->
+
+                            <!-- block 4 -->
+                            <tr>
+                                <td align="left" valign="top" class="fluid" style="padding-left: 20px; padding-right: 20px; padding-bottom: 50px;">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <tr>
+                                        	<td align="left" valign="top" style="padding-left: 20px; padding-right: 20px; padding-top: 20px; padding-bottom: 20px; border: 1px solid #EEF0FC; border-radius: 5px;">
+                                        		<table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        			<tr>
+                                        				<td align="left" valign="middle" style="font-family: 'Inter', sans-serif; padding-right: 20px;" class="fluid-content pr-0">
+			                                            	<table border="0" cellspacing="0" cellpadding="0" width="100%">
+			                                            		<tr>
+			                                            			<td align="left" valign="top" style="font-family: 'Inter', sans-serif; font-size: 18px; color: #18164C; line-height: 150%;font-weight: bold; padding-bottom: 15px;">
+			                                            				Let's talk
+			                                            			</td>
+			                                            		</tr>
+			                                            		<tr>
+			                                            			<td align="left" valign="top" style="font-family: 'Inter', sans-serif; font-size: 13px; color: #18164C; line-height: 150%;font-weight: bold; padding-bottom: 15px;">
+			                                            				There's more to website localizaion than you might think 🤔
+			                                            			</td>
+			                                            		</tr>
+			                                            		<tr>
+			                                            			<td align="left" valign="top" style="font-family: 'Inter', sans-serif; font-size: 12px; color: #18164C; line-height: 150%;font-weight: normal; padding-bottom: 15px;">
+			                                            				...Specifically website design + multiligual where there are a few extra considerations you might not have taken into account.
+			                                            			</td>
+			                                            		</tr>
+			                                            		<tr>
+			                                            			<td align="left" valign="top" style="padding-top: 15px;">
+			                                        				    <div>
+																		    <!--[if mso]>
+																		    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://www.EXAMPLE.com/" style="height:35px;v-text-anchor:middle;width:110px;" arcsize="50%" stroke="f" fillcolor="#3D46FB">
+																		        <w:anchorlock/>
+																		        <center style="color:#ffffff;font-weight: normal; font-family:'Inter',sans-serif;">
+																		            Watch now
+																		        </center>
+																		    </v:roundrect>
+																		    <![endif]-->
+																		    <!--[if !mso]> <!-->
+																		    <table cellspacing="0" cellpadding="0" border="0"> 
+																			    <tr>
+																			        <td align="center" valign="middle" width="110" height="35" bgcolor="#3D46FB" style="-webkit-border-radius: 50px; -moz-border-radius: 50px; border-radius: 50px; color: #ffffff; display: block;">
+																			            <a href="http://www.EXAMPLE.com/" target="_blank" style="color: #ffffff; font-size:12px; font-weight: normal; font-family:'Inter',sans-serif; text-decoration: none; line-height:35px; width:100%; display:inline-block">
+																			                Watch now
+																			            </a>
+																			        </td>
+																			    </tr> 
+																			</table>
+																		    <!-- <![endif]-->
+																		</div>
+			                                            			</td>
+			                                            		</tr>
+			                                            	</table>
+			                                            </td>
+			                                            <td align="right" valign="middle" style="font-family: 'Inter', sans-serif;" class="fluid-content pt-20">
+			                                            	<a href="#" target="_blank">
+			                                            		<img src="https://i.ibb.co/cypFRnQ/Screen-Shot-2020-11-17-at-17-10-1.png" width="280" class="fluid" border="0" style="vertical-align: middle; max-width: 280px;" alt="">
+			                                            	</a>
+			                                            </td>
+                                        			</tr>
+                                        		</table>
+                                        	</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- block 4 -->
+
+                            <!-- block 5 -->
+                            <tr>
+                                <td align="left" valign="top" class="fluid" style="padding-left: 20px; padding-right: 20px; padding-bottom: 50px;">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <tr>
+                                        	<td align="left" valign="top" style="padding-left: 20px; padding-right: 20px; padding-top: 20px; padding-bottom: 20px; border: 1px solid #EEF0FC; border-radius: 5px;">
+                                        		<table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        			<tr>
+                                        				<td align="left" valign="middle" style="font-family: 'Inter', sans-serif;" class="fluid-content">
+			                                            	<a href="#" target="_blank">
+			                                            		<img src="https://i.ibb.co/4MwNstT/Screen-Shot-2020-11-17-at-17-10-1-1.png" width="280" class="fluid" border="0" style="vertical-align: middle; max-width: 280px;"  alt="">
+			                                            	</a>
+			                                            </td>
+                                        				<td align="right" valign="middle" style="font-family: 'Inter', sans-serif; padding-left: 20px;" class="fluid-content pt-20 pl-0">
+			                                            	<table border="0" cellspacing="0" cellpadding="0" width="100%">
+			                                            		<tr>
+			                                            			<td align="left" valign="top" class="f-40" style="font-family: 'Inter', sans-serif; font-size: 35px; color: #18164C; line-height: 130%;font-weight: bold; padding-bottom: 15px;">
+			                                            				What We're <br> <span style="color: #3D46FA;">Reading</span>
+			                                            			</td>
+			                                            		</tr>
+			                                            		<tr>
+			                                            			<td align="left" valign="top" style="font-family: 'Inter', sans-serif; font-size: 12px; color: #18164C; line-height: 150%;font-weight: bold; padding-bottom: 15px;">
+			                                            				We chatted over on HubSpot about getting website localizaion right and our 5 tips to making sure you're building the best localized experience for your new customer.
+			                                            			</td>
+			                                            		</tr>
+			                                            		<tr>
+			                                            			<td align="left" valign="top" style="font-family: 'Inter', sans-serif; font-size: 12px; color: #18164C; line-height: 150%;font-weight: normal; padding-bottom: 15px;">
+			                                            				From choosing the right localization tool to building better personalized experiences, localized content goes further than just translation.
+			                                            			</td>
+			                                            		</tr>
+			                                            		<tr>
+			                                            			<td align="left" valign="top" style="padding-top: 15px;">
+			                                        				    <div>
+																		    <!--[if mso]>
+																		    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://www.EXAMPLE.com/" style="height:35px;v-text-anchor:middle;width:110px;" arcsize="50%" stroke="f" fillcolor="#3D46FB">
+																		        <w:anchorlock/>
+																		        <center style="color:#ffffff;font-weight: normal; font-family:'Inter',sans-serif;">
+																		            Visit now
+																		        </center>
+																		    </v:roundrect>
+																		    <![endif]-->
+																		    <!--[if !mso]> <!-->
+																		    <table cellspacing="0" cellpadding="0" border="0"> 
+																			    <tr>
+																			        <td align="center" valign="middle" width="110" height="35" bgcolor="#3D46FB" style="-webkit-border-radius: 50px; -moz-border-radius: 50px; border-radius: 50px; color: #ffffff; display: block;">
+																			            <a href="http://www.EXAMPLE.com/" target="_blank" style="color: #ffffff; font-size:12px; font-weight: normal; font-family:'Inter',sans-serif; text-decoration: none; line-height:35px; width:100%; display:inline-block">
+																			                Read now
+																			            </a>
+																			        </td>
+																			    </tr> 
+																			</table>
+																		    <!-- <![endif]-->
+																		</div>
+			                                            			</td>
+			                                            		</tr>
+			                                            	</table>
+			                                            </td>
+                                        			</tr>
+                                        		</table>
+                                        	</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- block 5 -->
+
+                            <!-- block 6 -->
+                            <tr>
+                                <td align="left" valign="top" class="fluid" style="padding-left: 20px; padding-right: 20px; padding-bottom: 50px;">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <tr>
+                                        	<td align="left" valign="top" style="padding-left: 20px; padding-right: 20px; padding-top: 20px; padding-bottom: 20px; border: 1px solid #EEF0FC; border-radius: 5px;">
+                                        		<table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        			<tr>
+                                        				<td align="right" valign="middle" style="font-family: 'Inter', sans-serif; display: none;" class="fluid-content block pb-20">
+			                                            	<a href="#" target="_blank">
+			                                            		<img src="https://i.ibb.co/q7xdsBz/custom-1.jpg" width="280" border="0" class="fluid" style="vertical-align: middle; max-width: 280px;" alt="">
+			                                            	</a>
+			                                            </td>
+                                        				<td align="left" valign="middle" style="font-family: 'Inter', sans-serif; padding-right: 20px;" class="fluid-content">
+			                                            	<table border="0" cellspacing="0" cellpadding="0" width="100%">
+			                                            		<tr>
+			                                            			<td align="left" valign="top" style="font-family: 'Inter', sans-serif; font-size: 18px; color: #18164C; line-height: 150%;font-weight: bold; padding-bottom: 15px;">
+			                                            				Multilingual Website of the Month
+			                                            			</td>
+			                                            		</tr>
+			                                            		<tr>
+			                                            			<td align="left" valign="top" style="font-family: 'Inter', sans-serif; font-size: 13px; color: #18164C; line-height: 150%;font-weight: bold; padding-bottom: 15px;">
+			                                            				Multilingual Website of this month is Lemlist which allows you to send emails that get replies.
+			                                            			</td>
+			                                            		</tr>
+			                                            		<tr>
+			                                            			<td align="left" valign="top" style="font-family: 'Inter', sans-serif; font-size: 12px; color: #18164C; line-height: 150%;font-weight: normal; padding-bottom: 15px;">
+			                                            				They have a beautiful language swithcer that allows visitors to display the website in their preferred language bla bla
+			                                            			</td>
+			                                            		</tr>
+			                                            		<tr>
+			                                            			<td align="left" valign="top" style="padding-top: 15px;">
+			                                        				    <div>
+																		    <!--[if mso]>
+																		    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://www.EXAMPLE.com/" style="height:35px;v-text-anchor:middle;width:110px;" arcsize="50%" stroke="f" fillcolor="#3D46FB">
+																		        <w:anchorlock/>
+																		        <center style="color:#ffffff;font-weight: normal; font-family:'Inter',sans-serif;">
+																		            Visit now
+																		        </center>
+																		    </v:roundrect>
+																		    <![endif]-->
+																		    <!--[if !mso]> <!-->
+																		    <table cellspacing="0" cellpadding="0" border="0"> 
+																			    <tr>
+																			        <td align="center" valign="middle" width="110" height="35" bgcolor="#3D46FB" style="-webkit-border-radius: 50px; -moz-border-radius: 50px; border-radius: 50px; color: #ffffff; display: block;">
+																			            <a href="http://www.EXAMPLE.com/" target="_blank" style="color: #ffffff; font-size:12px; font-weight: normal; font-family:'Inter',sans-serif; text-decoration: none; line-height:35px; width:100%; display:inline-block">
+																			                Visit now
+																			            </a>
+																			        </td>
+																			    </tr> 
+																			</table>
+																		    <!-- <![endif]-->
+																		</div>
+			                                            			</td>
+			                                            		</tr>
+			                                            	</table>
+			                                            </td>
+			                                            <td align="right" valign="middle" style="font-family: 'Inter', sans-serif;" class="fluid-content pt-20 none">
+			                                            	<a href="#" target="_blank">
+			                                            		<img src="https://i.ibb.co/q7xdsBz/custom-1.jpg" width="280" border="0" class="fluid" style="vertical-align: middle; max-width: 280px;" alt="">
+			                                            	</a>
+			                                            </td>
+                                        			</tr>
+                                        		</table>
+                                        	</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- block 6 -->
+
+                            <!-- block 7 -->
+                            <tr>
+                                <td align="left" valign="top" class="fluid" style="padding-left: 20px; padding-right: 20px;">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <tr>
+                                            <td align="left" valign="top" bgcolor="#F5F6FF" style="padding-left: 20px; padding-right: 20px; padding-top: 30px; padding-bottom: 30px; border-radius: 5px;">
+                                            	<table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                            		<tr>
+                                            			<td align="left" valign="top">
+                                            				<table border="0" cellspacing="0" cellpadding="0" width="100%">
+			                                            		<tr>
+			                                            			<td align="left" class="fluid-content pb-20 block" valign="middle" style="display: none;">
+			                                            				<img src="https://i.ibb.co/1281rwt/Illustration-3.png" width="200" alt="">
+			                                            			</td>
+			                                            			<td align="left" class="fluid-content" valign="middle" style="font-family: 'Inter', sans-serif; font-size: 50px; font-style: normal; font-weight: 700; line-height: 120%; letter-spacing: 0px; text-align: left; color: #18164C;">
+			                                            				<span style="color: #3D46FA;">What's new</span> <br> at Weglot?
+			                                            			</td>
+			                                            			<td align="right" class="fluid-content pt-20 none" valign="middle">
+			                                            				<img src="https://i.ibb.co/1281rwt/Illustration-3.png" width="200" alt="">
+			                                            			</td>
+			                                            		</tr>
+			                                            	</table>
+                                            			</td>
+                                            		</tr>
+                                            		<tr>
+                                            			<td align="left" valign="top" class="py-20">
+                                            				<a href="#" target="_blank">
+                                            					<img src="https://i.ibb.co/m5nMDK8/custom-2.jpg" width="520" class="fluid" border="0" style="max-width: 520px; vertical-align: middle;" alt="">
+                                            				</a>
+                                            			</td>
+                                            		</tr>
+                                            		<tr>
+                                            			<td align="left" valign="top" style="font-family: 'Inter', sans-serif; font-size: 18px; font-style: normal; font-weight: 700; line-height: 150%; letter-spacing: 0px; text-align: left; color: #18164C; padding-bottom: 15px; padding-top: 15px;">
+                                            				Product Updates
+                                            			</td>
+                                            		</tr>
+                                            		<tr>
+                                            			<td align="left" valign="top" style="font-family: 'Inter', sans-serif; font-size: 12px; font-style: normal; font-weight: 400; line-height: 150%; letter-spacing: 0px; text-align: left; color: #18164C;padding-bottom: 15px;">
+                                            				As usual - we've been hard at work making updates and changes to the Weglot product. just a few features include &#128073; option to reorder your language swithcer, Visual Editor updates and select multiple URLs at the same time. Check out our changelog for the latest news!
+                                            			</td>
+                                            		</tr>
+                                            		<tr>
+                                            			<td align="left" valign="top" style="padding-top: 15px;">
+                                        				    <div>
+															    <!--[if mso]>
+															    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://www.EXAMPLE.com/" style="height:35px;v-text-anchor:middle;width:110px;" arcsize="50%" stroke="f" fillcolor="#3D46FB">
+															        <w:anchorlock/>
+															        <center style="color:#ffffff;font-weight: normal; font-family:'Inter',sans-serif;">
+															            Check now
+															        </center>
+															    </v:roundrect>
+															    <![endif]-->
+															    <!--[if !mso]> <!-->
+															    <table cellspacing="0" cellpadding="0" border="0"> 
+																    <tr>
+																        <td align="center" width="110" valign="middle" height="35" bgcolor="#3D46FB" style="-webkit-border-radius: 50px; -moz-border-radius: 50px; border-radius: 50px; color: #ffffff; display: block;">
+																            <a href="http://www.EXAMPLE.com/" target="_blank" style="color: #ffffff; font-size:12px; font-weight: normal; font-family:'Inter',sans-serif; text-decoration: none; line-height:35px; width:100%; display:inline-block">
+																                Check now
+																            </a>
+																        </td>
+																    </tr> 
+																</table>
+															    <!-- <![endif]-->
+															</div>
+                                            			</td>
+                                            		</tr>	
+                                            		<tr>
+                                            			<td align="left" valign="top" style="font-family: 'Inter', sans-serif; font-size: 18px; font-style: normal; font-weight: 700; line-height: 150%; letter-spacing: 0px; text-align: left; color: #18164C; padding-bottom: 15px; padding-top: 20px;">
+                                            				Events of the Month
+                                            			</td>
+                                            		</tr>
+                                            		<tr>
+                                            			<td align="left" valign="top">
+                                            				<table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                            					<tr>
+                                            						<td align="left" valign="top" class="fluid-content">
+                                            							<table border="0" cellspacing="0" cellpadding="0">
+                                            								<tr>
+                                            									<td align="left" valign="top">
+                                            										<a href="#" target="_blank">
+                                            											<img src="https://i.ibb.co/HdPZp1w/Event-1.png" width="230" class="fluid" border="0" style="max-width: 230px; vertical-align: middle;" alt="">
+                                            										</a>
+                                            									</td>
+                                            								</tr>
+                                            								<tr>
+						                                            			<td align="left" valign="top" style="padding-top: 15px;">
+						                                        				    <div>
+																					    <!--[if mso]>
+																					    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://www.EXAMPLE.com/" style="height:35px;v-text-anchor:middle;width:120px;" arcsize="50%" stroke="f" fillcolor="#3D46FB">
+																					        <w:anchorlock/>
+																					        <center style="color:#ffffff;font-weight: normal; font-family:'Inter',sans-serif;">
+																					            Register now
+																					        </center>
+																					    </v:roundrect>
+																					    <![endif]-->
+																					    <!--[if !mso]> <!-->
+																					    <table cellspacing="0" cellpadding="0" border="0"> 
+																						    <tr>
+																						        <td align="center" valign="middle" width="120" height="35" bgcolor="#3D46FB" style="-webkit-border-radius: 50px; -moz-border-radius: 50px; border-radius: 50px; color: #ffffff; display: block;">
+																						            <a href="http://www.EXAMPLE.com/" target="_blank" style="color: #ffffff; font-size:12px; font-weight: normal; font-family:'Inter',sans-serif; text-decoration: none; line-height:35px; width:100%; display:inline-block">
+																						                Register now
+																						            </a>
+																						        </td>
+																						    </tr> 
+																						</table>
+																					    <!-- <![endif]-->
+																					</div>
+						                                            			</td>
+						                                            		</tr>
+                                            							</table>
+                                            						</td>
+                                            						<td align="left" valign="top" class="fluid-content pt-20">
+                                            							<table border="0" cellspacing="0" cellpadding="0" align="right">
+                                            								<tr>
+                                            									<td align="left" valign="top">
+                                            										<a href="#" target="_blank">
+                                            											<img src="https://i.ibb.co/txmJMJt/Event-2.png" width="230" class="fluid" border="0" style="max-width: 230px; vertical-align: middle;" alt="">
+                                            										</a>
+                                            									</td>
+                                            								</tr>
+                                            								<tr>
+						                                            			<td align="left" valign="top" style="padding-top: 15px;">
+						                                        				    <div>
+																					    <!--[if mso]>
+																					    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://www.EXAMPLE.com/" style="height:35px;v-text-anchor:middle;width:120px;" arcsize="50%" stroke="f" fillcolor="#3D46FB">
+																					        <w:anchorlock/>
+																					        <center style="color:#ffffff;font-weight: normal; font-family:'Inter',sans-serif;">
+																					            Register now
+																					        </center>
+																					    </v:roundrect>
+																					    <![endif]-->
+																					    <!--[if !mso]> <!-->
+																					    <table cellspacing="0" cellpadding="0" border="0"> 
+																						    <tr>
+																						        <td align="center" valign="middle" width="120" height="35" bgcolor="#3D46FB" style="-webkit-border-radius: 50px; -moz-border-radius: 50px; border-radius: 50px; color: #ffffff; display: block;">
+																						            <a href="http://www.EXAMPLE.com/" target="_blank" style="color: #ffffff; font-size:12px; font-weight: normal; font-family:'Inter',sans-serif; text-decoration: none; line-height:35px; width:100%; display:inline-block">
+																						                Register now
+																						            </a>
+																						        </td>
+																						    </tr> 
+																						</table>
+																					    <!-- <![endif]-->
+																					</div>
+						                                            			</td>
+						                                            		</tr>
+                                            							</table>
+                                            						</td>
+                                            					</tr>
+                                            				</table>
+                                            			</td>
+                                            		</tr>
+                                            	</table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- block 7 -->
+
+                            <!-- block 8 -->
+                            <tr>
+                                <td align="left" valign="top" class="fluid" style="padding-left: 40px; padding-right: 40px; padding-top: 40px; padding-bottom: 40px;">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <tr>
+	                            			<td align="left" valign="top" style="font-family: 'Inter', sans-serif; font-size: 12px; font-style: normal; font-weight: 400; line-height: 150%; letter-spacing: 0px; text-align: left; color: #18164C;padding-bottom: 15px;">
+	                            				As always, if you have any questions or feedback, we're always keen to hear from you via <a href="mailto:support@weglot.com" target="_blank" style="text-decoration: none; color: #18164C;"> support@weglot.com</a>
+	                            			</td>
+	                            		</tr>
+                                        <tr>
+	                            			<td align="left" valign="top" style="font-family: 'Inter', sans-serif; font-size: 12px; font-style: normal; font-weight: 400; line-height: 150%; letter-spacing: 0px; text-align: left; color: #18164C;">
+	                            				Have a nice day and see you next month!
+	                            			</td>
+	                            		</tr>
+                                        <tr>
+	                            			<td align="left" valign="top" style="font-family: 'Inter', sans-serif; font-size: 12px; font-style: normal; font-weight: bold; line-height: 150%; letter-spacing: 0px; text-align: left; color: #18164C;padding-bottom: 15px;">
+	                            				Elizabeth
+	                            			</td>
+	                            		</tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- block 8 -->
+
+                            <!-- footer -->
+                            <tr>
+                                <td align="left" valign="top" class="fluid" style="padding-left: 20px; padding-right: 20px;">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <tr>
+                                            <td align="center" valign="top" style="font-family: 'Inter', sans-serif; padding-bottom: 20px;">
+                                            	<table border="0" cellspacing="0" cellpadding="0">
+                                            		<tr>
+                                            			<td align="center" valign="top" width="50">
+                                            				<a href="#" target="_blank"><img src="https://i.ibb.co/q0ST432/facebook.png" width="35" border="0" style="max-width: 35px;" alt=""></a>
+                                            			</td>
+                                            			<td align="center" valign="top" width="50">
+                                            				<a href="#" target="_blank"><img src="https://i.ibb.co/BTsvt0n/linkedin.png" width="35" border="0" style="max-width: 35px;" alt=""></a>
+                                            			</td>
+                                            			<td align="center" valign="top" width="50">
+                                            				<a href="#" target="_blank"><img src="https://i.ibb.co/J37HBp6/twitter.png" width="35" border="0" style="max-width: 35px;" alt=""></a>
+                                            			</td>
+                                            			<td align="center" valign="top" width="50">
+                                            				<a href="#" target="_blank"><img src="https://i.ibb.co/mt52gvf/youtube.png" width="35" border="0" style="max-width: 35px;" alt=""></a>
+                                            			</td>
+                                            		</tr>
+                                            	</table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+	                            			<td align="center" valign="top" style="font-family: 'Inter', sans-serif; font-size: 12px; font-style: normal; font-weight: 400; line-height: 150%; letter-spacing: 0px; text-align: center; color: #6F7588; padding-bottom: 15px;">
+	                            				20 rue du Sentier, Paris, [Sender_Sate] 75002
+	                            			</td>
+	                            		</tr>
+                                        <tr>
+	                            			<td align="center" valign="top" style="font-family: 'Inter', sans-serif; font-size: 12px; font-style: normal; font-weight: 600; line-height: 150%; letter-spacing: 0px; text-align: center; padding-bottom: 15px;">
+	                            				<a href="#" target="_blank" style="color: #3D46FB; text-decoration: none;">Unsubscribe</a>
+	                            			</td>
+	                            		</tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- footer -->
+
+
+
+                            
+
+
+                            <!-- TYPOGRAPHY HERE
+                            <tr>
+                                <td align="left" valign="top" class="fluid" style="padding-left: 20px; padding-right: 20px;">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <tr>
+                                            <td align="left" valign="top" style="font-family: 'Inter', sans-serif;"></td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                             -->
+
+                        </table>
+                        <!-- // END TEMPLATE -->
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>
