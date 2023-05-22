@@ -1,0 +1,641 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8">
+        <meta name="x-apple-disable-message-reformatting">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>*|MC:SUBJECT|*</title>
+        <style type="text/css">
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+            @media only screen and (max-width: 480px){
+                /* ===== TYPOGRAPHY ======== */
+                #bodyCell{padding: 0 !important;}
+                #templateContainer{width: 100% !important;}
+                .fluid{width: 100% !important; max-width: 100% !important;}
+                .fluid-content{display: block !important; width: 100% !important;}
+                /*display*/
+                .none{display: none !important;}
+                .block{display: block !important;}
+                /*wdith*/
+                .w-25{width: 25px !important;}
+                .w-50{width: 50px !important;}
+                .w-75{width: 75px !important;}
+                .w-100{width: 100px !important;}
+                .w-125{width: 125px !important;}
+                .w-150{width: 150px !important;}
+                .w-175{width: 175px !important;}
+                .w-200{width: 200px !important;}
+                .w-225{width: 225px !important;}
+                .w-250{width: 250px !important;}
+                .w-275{width: 275px !important;}
+                .w-300{width: 300px !important;}
+                /*padding*/
+                .p-0{padding: 0 !important;}
+                .pt-0{padding-top: 0 !important;}
+                .pb-0{padding-bottom: 0 !important;}
+                .pr-0{padding-right: 0 !important;}
+                .pl-0{padding-left: 0 !important;}
+
+                .p-10{padding: 10px !important;}
+                .pt-10{padding-top: 10px !important;}
+                .pb-10{padding-bottom: 10px !important;}
+                .pr-10{padding-right: 10px !important;}
+                .pl-10{padding-left: 10px !important;}
+
+                .p-15{padding: 15px !important;}
+                .pt-15{padding-top: 15px !important;}
+                .pb-15{padding-bottom: 15px !important;}
+                .pr-15{padding-right: 15px !important;}
+                .pl-15{padding-left: 15px !important;}
+
+                .p-20{padding: 20px !important;}
+                .pt-20{padding-top: 20px !important;}
+                .pb-20{padding-bottom: 20px !important;}
+                .pr-20{padding-right: 20px !important;}
+                .pl-20{padding-left: 20px !important;}
+
+                .p-25{padding: 25px !important;}
+                .pt-25{padding-top: 25px !important;}
+                .pb-25{padding-bottom: 25px !important;}
+                .pr-25{padding-right: 25px !important;}
+                .pl-25{padding-left: 25px !important;}
+
+                .p-30{padding: 30px !important;}
+                .pt-30{padding-top: 30px !important;}
+                .pb-30{padding-bottom: 30px !important;}
+                .pr-30{padding-right: 30px !important;}
+                .pl-30{padding-left: 30px !important;}
+
+                .p-35{padding: 35px !important;}
+                .pt-35{padding-top: 35px !important;}
+                .pb-35{padding-bottom: 35px !important;}
+                .pr-35{padding-right: 35px !important;}
+                .pl-35{padding-left: 35px !important;}
+
+                .p-40{padding: 40px !important;}
+                .pt-40{padding-top: 40px !important;}
+                .pb-40{padding-bottom: 40px !important;}
+                .pr-40{padding-right: 40px !important;}
+                .pl-40{padding-left: 40px !important;}
+
+                .p-45{padding: 45px !important;}
+                .pt-45{padding-top: 45px !important;}
+                .pb-45{padding-bottom: 45px !important;}
+                .pr-45{padding-right: 45px !important;}
+                .pl-45{padding-left: 45px !important;}
+
+                .p-50{padding: 50px !important;}
+                .pt-50{padding-top: 50px !important;}
+                .pb-50{padding-bottom: 50px !important;}
+                .pr-50{padding-right: 50px !important;}
+                .pl-50{padding-left: 50px !important;}
+
+                .px-0{padding-left: 0px !important; padding-right: 0px !important;}
+                .py-0{padding-top: 0px !important; padding-bottom: 0px !important;}
+
+                .px-10{padding-left: 10px !important; padding-right: 10px !important;}
+                .py-10{padding-top: 10px !important; padding-bottom: 10px !important;}
+
+                .px-15{padding-left: 15px !important; padding-right: 15px !important;}
+                .py-15{padding-top: 15px !important; padding-bottom: 15px !important;}
+
+                .px-20{padding-left: 20px !important; padding-right: 20px !important;}
+                .py-20{padding-top: 20px !important; padding-bottom: 20px !important;}
+
+                .px-25{padding-left: 25px !important; padding-right: 25px !important;}
+                .py-25{padding-top: 25px !important; padding-bottom: 25px !important;}
+
+                .px-30{padding-left: 30px !important; padding-right: 30px !important;}
+                .py-30{padding-top: 30px !important; padding-bottom: 30px !important;}
+
+                .px-35{padding-left: 35px !important; padding-right: 35px !important;}
+                .py-35{padding-top: 35px !important; padding-bottom: 35px !important;}
+
+                .px-40{padding-left: 40px !important; padding-right: 40px !important;}
+                .py-40{padding-top: 40px !important; padding-bottom: 40px !important;}
+
+                .px-45{padding-left: 45px !important; padding-right: 45px !important;}
+                .py-45{padding-top: 45px !important; padding-bottom: 45px !important;}
+
+                .px-50{padding-left: 50px !important; padding-right: 50px !important;}
+                .py-50{padding-top: 50px !important; padding-bottom: 50px !important;}
+
+                /*text center*/
+                .center{text-align: center !important;}
+                .left{text-align: left !important;}
+                .right{text-align: right !important;}
+                .valign-middle{vertical-align: middle !important;}
+                .valign-top{vertical-align: top !important;}
+                .valign-bottom{vertical-align: bottom !important;}
+
+                /*font-size*/
+                .f-8{font-size: 8px !important;}
+                .f-9{font-size: 9px !important;}
+                .f-10{font-size: 10px !important;}
+                .f-11{font-size: 11px !important;}
+                .f-12{font-size: 12px !important;}
+                .f-13{font-size: 13px !important;}
+                .f-14{font-size: 14px !important;}
+                .f-15{font-size: 15px !important;}
+                .f-16{font-size: 16px !important;}
+                .f-17{font-size: 17px !important;}
+                .f-18{font-size: 18px !important;}
+                .f-19{font-size: 19px !important;}
+                .f-20{font-size: 20px !important;}
+                .f-21{font-size: 21px !important;}
+                .f-22{font-size: 22px !important;}
+                .f-23{font-size: 23px !important;}
+                .f-24{font-size: 24px !important;}
+                .f-25{font-size: 25px !important;}
+                .f-26{font-size: 26px !important;}
+                .f-27{font-size: 27px !important;}
+                .f-28{font-size: 28px !important;}
+                .f-29{font-size: 29px !important;}
+                .f-30{font-size: 30px !important;}
+                .f-32{font-size: 32px !important;}
+                .f-34{font-size: 34px !important;}
+                .f-36{font-size: 36px !important;}
+                .f-38{font-size: 38px !important;}
+                .f-40{font-size: 40px !important;}
+                .f-42{font-size: 42px !important;}
+                .f-44{font-size: 44px !important;}
+                .f-46{font-size: 46px !important;}
+                .f-48{font-size: 48px !important;}
+                .f-50{font-size: 50px !important;}
+
+                /*fontwight*/
+                .bold{font-weight: 700 !important;}
+                .medium{font-weight: 500 !important;}
+                .semi-bold{font-weight: 600 !important;}
+                .black{font-weight: 900 !important;}
+                /* ===== TYPOGRAPHY ======== */
+            }
+        </style>
+    </head>
+    <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0" bgcolor="#f1efef" style="font-family: 'Roboto', sans-serif; padding: 0; margin: 0;"  yahoo="fix">
+        <center>
+            <table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable" style="background-color: #f1efef;">
+                <tr>
+                    <td align="center" valign="top" id="bodyCell" style="padding-top: 20px; padding-bottom: 20px;">
+                        <!-- BEGIN TEMPLATE // -->
+                        <table border="0" cellpadding="0" cellspacing="0" width="600" id="templateContainer" style="background-color: #fff; ">
+                            <!-- PREHEADER PART -->
+                            <tr>
+                                <td align="center" valign="top">
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateHeader">
+                                        <tr>
+                                            <td valign="top" align="left" class="headerContent">
+                                                <img src="https://i.ibb.co/pbxbnp8/Rectangle-10-copy-3.png" width="600" style="max-width: 600px; vertical-align: middle;" class="fluid" alt="">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td valign="top" align="center" class="headerContent" style="padding-top: 25px;">
+                                                <a href="https://www.thebuildermarket.com/" target="_blank">
+                                                    <img src="https://i.ibb.co/gwTxJn2/The-Builder-Marketlogojpg.png" width="368" style="max-width: 368px; vertical-align: middle;" class="w-250" alt="">
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- PREHEADER PART FINISH-->
+
+                            <!-- block 1 -->
+                            <tr>
+                                <td align="left" valign="top" class="fluid px-20" style="padding-left: 50px; padding-right: 50px; padding-top: 20px; padding-bottom: 20px;">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <tr>
+                                            <td align="left" valign="top" style="font-family: 'Roboto', sans-serif; padding-bottom: 40px;">
+                                                <a href="#" target="_blank">
+                                                    <img src="https://i.ibb.co/HKM1QJw/Tools600.gif" width="498" style="max-width: 498px; vertical-align: middle;" class="fluid" alt="">
+                                                </a>                                                
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" valign="top" class="f-25" style="font-family: 'Roboto', sans-serif; font-size: 34px; font-weight: 700; color: #0B0A82; line-height: 120%; padding-bottom: 20px;">
+                                                We’d like to introduce The Builder Market                                             
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" valign="top" style="font-family: 'Roboto', sans-serif; font-size: 16px; font-weight: 400; color: #0B0A82; padding-bottom: 20px;">
+                                                An online marketplace for the home improvement and commercial construction industry.                                           
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" valign="top" style="font-family: 'Roboto', sans-serif; font-size: 16px; font-weight: 400; color: #0B0A82; padding-bottom: 20px;">
+                                                We’ve already created a business listing for (Name of Company). Please confirm the details of your business listing. Visit <a href="" target="_blank" style="color: #282776; font-weight: 600;"> www.thebuildermarket.com/directory/</a> or reply to the email.                                          
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- block 1 -->
+
+                            <!-- block 2 -->
+                            <tr>
+                                <td align="left" valign="top" class="fluid px-20" style="padding-left: 50px; padding-right: 50px;">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <tr>
+                                            <td align="left" valign="top" style="font-family: 'Roboto', sans-serif; padding-top: 15px; padding-bottom: 30px;">
+                                                <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                    <tr>
+                                                        <td align="left" valign="top" class="fluid-content pb-20" width="300">
+                                                            <img src="https://i.ibb.co/JpmTV3d/constru-es-e-reformas-png.png" width="267" style="max-width: 267px; vertical-align: middle;" alt="">
+                                                        </td>
+                                                        <td align="left" valign="top" class="fluid-content" width="200">
+                                                            <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                                <tr>
+                                                                    <td align="left" valign="top" style="font-family: 'Roboto', sans-serif; font-size: 14px; font-weight: 700; color: #0B0A82; padding-bottom: 10px;">
+                                                                        Address:                                         
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left" valign="top" style="font-family: 'Roboto', sans-serif; font-size: 12px; font-weight: 400; color: #2f2e82; padding-bottom: 20px;">
+                                                                        N/A                                       
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left" valign="top" style="font-family: 'Roboto', sans-serif; font-size: 14px; font-weight: 700; color: #0B0A82; padding-bottom: 10px;">
+                                                                        Phone:                                        
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left" valign="top" style="font-family: 'Roboto', sans-serif; font-size: 12px; font-weight: 400; color: #2f2e82; padding-bottom: 20px;">
+                                                                        N/A                                       
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left" valign="top" style="font-family: 'Roboto', sans-serif; font-size: 14px; font-weight: 700; color: #0B0A82; padding-bottom: 10px;">
+                                                                        Website:                                        
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left" valign="top" style="font-family: 'Roboto', sans-serif; font-size: 12px; font-weight: 400; color: #2f2e82; padding-bottom: 20px;">
+                                                                        N/A                                       
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left" valign="top" style="font-family: 'Roboto', sans-serif; font-size: 14px; font-weight: 700; color: #0B0A82; padding-bottom: 10px;">
+                                                                        Category:                                       
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left" valign="top" style="font-family: 'Roboto', sans-serif; font-size: 12px; font-weight: 400; color: #2f2e82; padding-bottom: 20px;">
+                                                                        N/A                                       
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" valign="top" style="padding-bottom: 40px; border-bottom: 1px solid #EAECF7;">
+                                                <a href="#" target="_blank" style="text-decoration: none;">
+                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td align="center" valign="middle" style="font-family: 'Roboto', sans-serif; font-size: 15px; font-weight: 700; color: #fff; background-color: #11BC72; border-radius: 5px; background-image: url(https://i.ibb.co/zbdGhVW/button-bg.png); background-size: 100% 100%; background-position: center; background-repeat: no-repeat;" background="https://i.ibb.co/zbdGhVW/button-bg.png" width="220" height="55">
+                                                                Claim your Lisiting
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </a>                                                
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- block 2 -->
+
+                            <!-- block 3 -->
+                            <tr>
+                                <td align="left" valign="top" class="fluid px-20" style="padding-left: 50px; padding-right: 50px; padding-top: 50px; padding-bottom: 50px;">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <tr>
+                                            <td align="center" valign="top" class="f-25" style="font-family: 'Roboto', sans-serif; font-size: 36px; font-weight: 700; color: #0b0a82; padding-bottom: 40px;">
+                                                Fast Fact                                      
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" valign="top" style="font-family: 'Roboto', sans-serif; padding-bottom: 50px;">
+                                                <img src="https://i.ibb.co/nBwmWVj/i-Phone-11-Pro-Mockup.png" width="500" style="max-width: 500px; vertical-align: middle;" class="fluid" alt="">
+                                            </td>
+                                        </tr>
+                                        <!-- row 1st -->
+                                        <tr>
+                                            <td align="left" valign="top" style="padding-bottom: 40px;">
+                                                <table border="0" cellspacing="0" cellpadding="0" class="fluid">
+                                                    <tr>
+                                                        <!-- column -->
+                                                        <td align="left" valign="top" class="fluid-content pr-0 pb-40" style="padding-right: 40px;">
+                                                            <table border="0" cellspacing="0" cellpadding="0" class="fluid">
+                                                                <tr>
+                                                                    <td align="center" valign="middle" width="170" height="170" style="border: 1px solid #E9ECF7; padding-top: 30px; padding-bottom: 30px; padding-right: 30px; padding-left: 30px;">
+                                                                        <table border="0" cellspacing="0" cellpadding="0">
+                                                                            <tr>
+                                                                                <td align="center" valign="top" style="padding-bottom: 20px;">
+                                                                                    <img src="https://i.ibb.co/WtFNwCr/General-Contractor.png" alt="">
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td align="center" valign="middle" style="font-family: 'Roboto', sans-serif; font-size: 16px; font-weight: 400; color: #2f2e82">
+                                                                                    There are over 750,000 pro nationwide in the directory,
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                        <!-- column -->
+                                                        <td align="left" valign="top" class="fluid-content">
+                                                            <table border="0" cellspacing="0" cellpadding="0" class="fluid">
+                                                                <tr>
+                                                                    <td align="center" valign="middle" width="170" height="170" style="border: 1px solid #E9ECF7; padding-top: 30px; padding-bottom: 30px; padding-right: 30px; padding-left: 30px;">
+                                                                        <table border="0" cellspacing="0" cellpadding="0">
+                                                                            <tr>
+                                                                                <td align="center" valign="top" style="padding-bottom: 20px;">
+                                                                                    <img src="https://i.ibb.co/fpjmM42/Handyman.png" alt="">
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td align="center" valign="middle" style="font-family: 'Roboto', sans-serif; font-size: 16px; font-weight: 400; color: #2f2e82">
+                                                                                    Lisiting are 100% free and customizable
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <!-- row 2 -->
+                                        <tr>
+                                            <td align="left" valign="top" style="padding-bottom: 40px; border-bottom: 1px solid #EAECF7;">
+                                                <table border="0" cellspacing="0" cellpadding="0" class="fluid">
+                                                    <tr>
+                                                        <!-- column -->
+                                                        <td align="left" valign="top" class="fluid-content pr-0 pb-40" style="padding-right: 40px;">
+                                                            <table border="0" cellspacing="0" cellpadding="0" class="fluid">
+                                                                <tr>
+                                                                    <td align="center" valign="middle" width="170" height="170" style="border: 1px solid #E9ECF7; padding-top: 30px; padding-bottom: 30px; padding-right: 30px; padding-left: 30px;">
+                                                                        <table border="0" cellspacing="0" cellpadding="0">
+                                                                            <tr>
+                                                                                <td align="center" valign="top" style="padding-bottom: 20px;">
+                                                                                    <img src="https://i.ibb.co/3T8wV8t/Painting.png" alt="">
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td align="center" valign="middle" style="font-family: 'Roboto', sans-serif; font-size: 16px; font-weight: 400; color: #2f2e82">
+                                                                                    Anyone can contact you directly through Your Lisiting
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                        <!-- column -->
+                                                        <td align="left" valign="top" class="fluid-content">
+                                                            <table border="0" cellspacing="0" cellpadding="0" class="fluid">
+                                                                <tr>
+                                                                    <td align="center" valign="middle" width="170" height="170" style="border: 1px solid #E9ECF7; padding-top: 30px; padding-bottom: 30px; padding-right: 30px; padding-left: 30px;">
+                                                                        <table border="0" cellspacing="0" cellpadding="0">
+                                                                            <tr>
+                                                                                <td align="center" valign="top" style="padding-bottom: 20px;">
+                                                                                    <img src="https://i.ibb.co/wKScBtV/Carpentry.png" alt="">
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td align="center" valign="middle" style="font-family: 'Roboto', sans-serif; font-size: 16px; font-weight: 400; color: #2f2e82">
+                                                                                    Your lisiting Can be Found on Google.
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- block 3 -->
+
+                            <!-- block 4 -->
+                            <tr>
+                                <td align="left" valign="top" class="fluid px-20" style="padding-left: 50px; padding-right: 50px; padding-bottom: 50px;">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <tr>
+                                            <td align="center" valign="top" class="f-25" style="font-family: 'Roboto', sans-serif; font-size: 36px; font-weight: 700; color: #0b0a82; padding-bottom: 40px;">
+                                                These are some of our perks                                     
+                                            </td>
+                                        </tr>
+                                        <!-- row 1st -->
+                                        <tr>
+                                            <td align="left" valign="top" style="padding-bottom: 30px;">
+                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                        <!-- column -->
+                                                        <td align="left" valign="top" width="146" class="fluid-content pr-0 pb-30" style="padding-right: 30px">
+                                                            <table border="0" cellspacing="0" cellpadding="0">
+                                                                <tr>
+                                                                    <td align="center" valign="top" style="padding-bottom: 15px;">
+                                                                        <img src="https://i.ibb.co/3vZmhYK/paint-roller.png" width="62" style="max-width: 62px; vertical-align: middle;" alt="">
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="center" valign="middle" style="font-family: 'Roboto', sans-serif; font-size: 16px; font-weight: 700; color: #0b0a82; padding-bottom: 15px;">
+                                                                        Free Business Listing
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="center" valign="middle" style="font-family: 'Roboto', sans-serif; font-size: 16px; font-weight: 400; color: #2f2e82; padding-bottom: 15px;">
+                                                                        Customize your listing and impress your customers
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                        <!-- column -->
+                                                        <td align="left" valign="top" width="146" class="fluid-content pr-0 pb-30" style="padding-right: 30px">
+                                                            <table border="0" cellspacing="0" cellpadding="0">
+                                                                <tr>
+                                                                    <td align="center" valign="top" style="padding-bottom: 15px;">
+                                                                        <img src="https://i.ibb.co/DYPM2v1/ruler.png" width="62" style="max-width: 62px; vertical-align: middle;" alt="">
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="center" valign="middle" style="font-family: 'Roboto', sans-serif; font-size: 16px; font-weight: 700; color: #0b0a82; padding-bottom: 15px;">
+                                                                        No Membership Fees
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="center" valign="middle" style="font-family: 'Roboto', sans-serif; font-size: 16px; font-weight: 400; color: #2f2e82; padding-bottom: 15px;">
+                                                                        There are no monthly orannual membership fees
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                        <!-- column -->
+                                                        <td align="left" valign="top" width="146" class="fluid-content">
+                                                            <table border="0" cellspacing="0" cellpadding="0">
+                                                                <tr>
+                                                                    <td align="center" valign="top" style="padding-bottom: 15px;">
+                                                                        <img src="https://i.ibb.co/8cp7M5v/pencil.png" width="62" style="max-width: 62px; vertical-align: middle;" alt="">
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="center" valign="middle" style="font-family: 'Roboto', sans-serif; font-size: 16px; font-weight: 700; color: #0b0a82; padding-bottom: 15px;">
+                                                                        Free Advertising
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="center" valign="middle" style="font-family: 'Roboto', sans-serif; font-size: 16px; font-weight: 400; color: #2f2e82; padding-bottom: 15px;">
+                                                                        Showcase your work and post photos in our inspiration gallery.
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr> 
+                                        <!-- row 2nd -->
+                                        <tr>
+                                            <td align="left" valign="top" style="padding-bottom: 30px;">
+                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                        <!-- column -->
+                                                        <td align="left" valign="top" width="146" class="fluid-content pr-0 pb-30" style="padding-right: 30px">
+                                                            <table border="0" cellspacing="0" cellpadding="0">
+                                                                <tr>
+                                                                    <td align="center" valign="top" style="padding-bottom: 15px;">
+                                                                        <img src="https://i.ibb.co/3vZmhYK/paint-roller.png" width="62" style="max-width: 62px; vertical-align: middle;" alt="">
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="center" valign="middle" style="font-family: 'Roboto', sans-serif; font-size: 16px; font-weight: 700; color: #0b0a82; padding-bottom: 15px;">
+                                                                        Free Updates
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="center" valign="middle" style="font-family: 'Roboto', sans-serif; font-size: 16px; font-weight: 400; color: #2f2e82; padding-bottom: 15px;">
+                                                                        We notify you about project postings through text and email.
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                        <!-- column -->
+                                                        <td align="left" valign="top" width="146" class="fluid-content pr-0 pb-30" style="padding-right: 30px">
+                                                            <table border="0" cellspacing="0" cellpadding="0">
+                                                                <tr>
+                                                                    <td align="center" valign="top" style="padding-bottom: 15px;">
+                                                                        <img src="https://i.ibb.co/DYPM2v1/ruler.png" width="62" style="max-width: 62px; vertical-align: middle;" alt="">
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="center" valign="middle" style="font-family: 'Roboto', sans-serif; font-size: 16px; font-weight: 700; color: #0b0a82; padding-bottom: 15px;">
+                                                                        Virtual Visits
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="center" valign="middle" style="font-family: 'Roboto', sans-serif; font-size: 16px; font-weight: 400; color: #2f2e82; padding-bottom: 15px;">
+                                                                        1 on 1 video chat with potential customers.  (Pay per minute.)
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                        <!-- column -->
+                                                        <td align="left" valign="top" width="146" class="fluid-content">
+                                                            <table border="0" cellspacing="0" cellpadding="0">
+                                                                <tr>
+                                                                    <td align="center" valign="top" style="padding-bottom: 15px;">
+                                                                        <img src="https://i.ibb.co/8cp7M5v/pencil.png" width="62" style="max-width: 62px; vertical-align: middle;" alt="">
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="center" valign="middle" style="font-family: 'Roboto', sans-serif; font-size: 16px; font-weight: 700; color: #0b0a82; padding-bottom: 15px;">
+                                                                        Networking
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="center" valign="middle" style="font-family: 'Roboto', sans-serif; font-size: 16px; font-weight: 400; color: #2f2e82; padding-bottom: 15px;">
+                                                                        Post your projects and network with other pros.
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr> 
+
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- block 4 -->
+
+                            <!-- block 5 -->
+                            <tr>
+                                <td align="left" valign="top" class="fluid px-20" bgcolor="#F1F3F9" style="padding-left: 50px; padding-right: 50px; background-color: #F1F3F9; padding-top: 30px; padding-bottom: 30px;">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <tr>
+                                            <td align="center" valign="top" class="f-12" style="font-family: 'Montserrat', sans-serif; font-size: 14px; font-weight: 500; color: #0b0a82; line-height: 120%; padding-bottom: 15px;">
+                                                Have questions or need help? Reply to this email.                                               
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" valign="top">
+                                                <a href="https://www.thebuildermarket.com/" target="_blank">
+                                                    <img src="https://i.ibb.co/whjTD6F/The-Builder-Marketlogojpg.png" width="368" style="max-width: 368px; vertical-align: middle;" class="w-250" alt="">
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- block 5 -->
+                            <tr>
+                                <td align="left" valign="top" class="fluid" >
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <tr>
+                                            <td align="left" valign="top" style="font-family: 'Montserrat', sans-serif;">
+                                                <img src="https://i.ibb.co/1RzrJcB/border.png" style="max-width: 600px; vertical-align: middle;" class="fluid" alt="">
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+
+
+
+                            <!-- TYPOGRAPHY HERE
+                            <tr>
+                                <td align="left" valign="top" class="fluid px-20" style="padding-left: 50px; padding-right: 50px;">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <tr>
+                                            <td align="left" valign="top" style="font-family: 'Roboto', sans-serif;"></td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                             -->
+
+                        </table>
+                        <!-- // END TEMPLATE -->
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>
