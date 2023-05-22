@@ -1,0 +1,927 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8">
+        <meta name="x-apple-disable-message-reformatting">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>*|MC:SUBJECT|*</title>
+        <style type="text/css">
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+            @media only screen and (max-width: 480px){
+                /* ===== TYPOGRAPHY ======== */
+                #bodyCell{padding: 0 !important;}
+                #templateContainer{width: 100% !important;}
+                .fluid{width: 100% !important; max-width: 100% !important;}
+                .fluid-content{display: block !important; width: 100% !important;}
+                /*display*/
+                .none{display: none !important;}
+                .block{display: block !important;}
+                /*wdith*/
+                .w-25{width: 25px !important;}
+                .w-50{width: 50px !important;}
+                .w-75{width: 75px !important;}
+                .w-100{width: 100px !important;}
+                .w-125{width: 125px !important;}
+                .w-150{width: 150px !important;}
+                .w-175{width: 175px !important;}
+                .w-200{width: 200px !important;}
+                .w-225{width: 225px !important;}
+                .w-250{width: 250px !important;}
+                .w-275{width: 275px !important;}
+                .w-300{width: 300px !important;}
+                /*padding*/
+                .p-0{padding: 0 !important;}
+                .pt-0{padding-top: 0 !important;}
+                .pb-0{padding-bottom: 0 !important;}
+                .pr-0{padding-right: 0 !important;}
+                .pl-0{padding-left: 0 !important;}
+
+                .p-10{padding: 10px !important;}
+                .pt-10{padding-top: 10px !important;}
+                .pb-10{padding-bottom: 10px !important;}
+                .pr-10{padding-right: 10px !important;}
+                .pl-10{padding-left: 10px !important;}
+
+                .p-15{padding: 15px !important;}
+                .pt-15{padding-top: 15px !important;}
+                .pb-15{padding-bottom: 15px !important;}
+                .pr-15{padding-right: 15px !important;}
+                .pl-15{padding-left: 15px !important;}
+
+                .p-20{padding: 20px !important;}
+                .pt-20{padding-top: 20px !important;}
+                .pb-20{padding-bottom: 20px !important;}
+                .pr-20{padding-right: 20px !important;}
+                .pl-20{padding-left: 20px !important;}
+
+                .p-25{padding: 25px !important;}
+                .pt-25{padding-top: 25px !important;}
+                .pb-25{padding-bottom: 25px !important;}
+                .pr-25{padding-right: 25px !important;}
+                .pl-25{padding-left: 25px !important;}
+
+                .p-30{padding: 30px !important;}
+                .pt-30{padding-top: 30px !important;}
+                .pb-30{padding-bottom: 30px !important;}
+                .pr-30{padding-right: 30px !important;}
+                .pl-30{padding-left: 30px !important;}
+
+                .p-35{padding: 35px !important;}
+                .pt-35{padding-top: 35px !important;}
+                .pb-35{padding-bottom: 35px !important;}
+                .pr-35{padding-right: 35px !important;}
+                .pl-35{padding-left: 35px !important;}
+
+                .p-40{padding: 40px !important;}
+                .pt-40{padding-top: 40px !important;}
+                .pb-40{padding-bottom: 40px !important;}
+                .pr-40{padding-right: 40px !important;}
+                .pl-40{padding-left: 40px !important;}
+
+                .p-45{padding: 45px !important;}
+                .pt-45{padding-top: 45px !important;}
+                .pb-45{padding-bottom: 45px !important;}
+                .pr-45{padding-right: 45px !important;}
+                .pl-45{padding-left: 45px !important;}
+
+                .p-50{padding: 50px !important;}
+                .pt-50{padding-top: 50px !important;}
+                .pb-50{padding-bottom: 50px !important;}
+                .pr-50{padding-right: 50px !important;}
+                .pl-50{padding-left: 50px !important;}
+
+                .px-0{padding-left: 0px !important; padding-right: 0px !important;}
+                .py-0{padding-top: 0px !important; padding-bottom: 0px !important;}
+
+                .px-10{padding-left: 10px !important; padding-right: 10px !important;}
+                .py-10{padding-top: 10px !important; padding-bottom: 10px !important;}
+
+                .px-15{padding-left: 15px !important; padding-right: 15px !important;}
+                .py-15{padding-top: 15px !important; padding-bottom: 15px !important;}
+
+                .px-20{padding-left: 20px !important; padding-right: 20px !important;}
+                .py-20{padding-top: 20px !important; padding-bottom: 20px !important;}
+
+                .px-25{padding-left: 25px !important; padding-right: 25px !important;}
+                .py-25{padding-top: 25px !important; padding-bottom: 25px !important;}
+
+                .px-30{padding-left: 30px !important; padding-right: 30px !important;}
+                .py-30{padding-top: 30px !important; padding-bottom: 30px !important;}
+
+                .px-35{padding-left: 35px !important; padding-right: 35px !important;}
+                .py-35{padding-top: 35px !important; padding-bottom: 35px !important;}
+
+                .px-40{padding-left: 40px !important; padding-right: 40px !important;}
+                .py-40{padding-top: 40px !important; padding-bottom: 40px !important;}
+
+                .px-45{padding-left: 45px !important; padding-right: 45px !important;}
+                .py-45{padding-top: 45px !important; padding-bottom: 45px !important;}
+
+                .px-50{padding-left: 50px !important; padding-right: 50px !important;}
+                .py-50{padding-top: 50px !important; padding-bottom: 50px !important;}
+
+                /*text center*/
+                .center{text-align: center !important;}
+                .left{text-align: left !important;}
+                .right{text-align: right !important;}
+                .valign-middle{vertical-align: middle !important;}
+                .valign-top{vertical-align: top !important;}
+                .valign-bottom{vertical-align: bottom !important;}
+
+                /*font-size*/
+                .f-8{font-size: 8px !important;}
+                .f-9{font-size: 9px !important;}
+                .f-10{font-size: 10px !important;}
+                .f-11{font-size: 11px !important;}
+                .f-12{font-size: 12px !important;}
+                .f-13{font-size: 13px !important;}
+                .f-14{font-size: 14px !important;}
+                .f-15{font-size: 15px !important;}
+                .f-16{font-size: 16px !important;}
+                .f-17{font-size: 17px !important;}
+                .f-18{font-size: 18px !important;}
+                .f-19{font-size: 19px !important;}
+                .f-20{font-size: 20px !important;}
+                .f-21{font-size: 21px !important;}
+                .f-22{font-size: 22px !important;}
+                .f-23{font-size: 23px !important;}
+                .f-24{font-size: 24px !important;}
+                .f-25{font-size: 25px !important;}
+                .f-26{font-size: 26px !important;}
+                .f-27{font-size: 27px !important;}
+                .f-28{font-size: 28px !important;}
+                .f-29{font-size: 29px !important;}
+                .f-30{font-size: 30px !important;}
+                .f-32{font-size: 32px !important;}
+                .f-34{font-size: 34px !important;}
+                .f-36{font-size: 36px !important;}
+                .f-38{font-size: 38px !important;}
+                .f-40{font-size: 40px !important;}
+                .f-42{font-size: 42px !important;}
+                .f-44{font-size: 44px !important;}
+                .f-46{font-size: 46px !important;}
+                .f-48{font-size: 48px !important;}
+                .f-50{font-size: 50px !important;}
+
+                /*fontwight*/
+                .bold{font-weight: 700 !important;}
+                .medium{font-weight: 500 !important;}
+                .semi-bold{font-weight: 600 !important;}
+                .black{font-weight: 900 !important;}
+                .pl-100{padding-left: 100px !important;}
+                .lh-100{line-height: 100% !important;}
+                .bg_size_70{background-size: 70% !important;}
+                /* ===== TYPOGRAPHY ======== */
+            }
+        </style>
+    </head>
+    <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0" bgcolor="#1fc4d7" style="font-family: 'Poppins', sans-serif; padding: 0; margin: 0;"  yahoo="fix">
+        <center>
+            <table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable" style="background-color: #1fc4d7;">
+                <tr>
+                    <td align="center" valign="top" id="bodyCell" style="padding-top: 20px; padding-bottom: 20px;">
+                        <!-- BEGIN TEMPLATE // -->
+                        <table border="0" cellpadding="0" cellspacing="0" width="600" id="templateContainer" style="background-color: #100726; ">
+                            <!-- PREHEADER PART -->
+                            <tr>
+                                <td align="center" valign="top">
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateHeader">
+                                        <tr>
+                                            <td valign="top" align="left" class="headerContent">
+                                                <a href="#" target="_blank">
+                                                    <img src="https://i.ibb.co/rv3YL3K/1-Header.png" width="600" style="max-width: 600px;" class="fluid" alt="">
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- PREHEADER PART FINISH-->
+
+                            <!-- block 1 -->
+                            <tr>
+                                <td align="left" valign="top" class="fluid bg_size_70" style="padding-left: 20px;padding-right: 20px;padding-top: 20px;padding-bottom: 20px;background-image: url(https://i.ibb.co/Jzt9X2X/Rectangle-2-copy.png);background-repeat: no-repeat;background-position: 38px 64px;background-size: 50%;">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <tr>
+                                            <td align="left" valign="top" class="fluid-content pb-20" style="font-family: 'Poppins', sans-serif;">
+                                                <img src="https://i.ibb.co/MSnFQCK/KM0A8947.png" width="250" style="max-width: 260px;" class="fluid" alt="">
+                                            </td>
+                                            <td align="left" valign="middle" width="295" class="fluid-content pl-0" style="padding-left: 15px;">
+                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                        <td align="left" valign="top" style="font-family: 'Poppins', sans-serif; font-weight: 300; color: #fff; font-size: 14px; text-transform: uppercase; line-height: 100%;">AN unforgettable</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left" valign="top" style="font-family: 'Poppins', sans-serif; font-weight: 900; color: #fff; font-size: 32px; text-transform: uppercase; line-height: 100%; padding-bottom: 15px;">Dance COMPETITION</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left" valign="top" style="font-family: 'Poppins', sans-serif; font-weight: 400; color: #dfdfdf; font-size: 14px; line-height: 20px;">
+                                                            Ultra Dance Competition is the most electrifying and innovative dance competition in the industry. With clear, transparent scoring, performers receive instantaneous results and recognition. Ultra provides a state-of-the-art experience for all dancers, teachers, choreographers, and parents. Join us as we continue to innovate while maintaining our dedication to the values and practices that have made this industry what it is today. <span style="color: #1fc4d7; font-weight: 800;">At Ultra, we want your dancers to be the artists and athletes they were born to be! </span> 
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- block 1 -->
+
+                            <!-- block 2 -->
+                            <tr>
+                                <td align="left" valign="top" class="fluid px-20" style="padding-left: 40px; padding-right: 40px;">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <tr>
+                                            <td align="center" valign="top" style="font-family: 'Poppins', sans-serif; font-weight: 400; color: #dfdfdf; font-size: 18px; line-height: 22px; padding-bottom: 30px;">
+                                                ULTRA’s Competition is a held in a fun, supportive environment and adjudicated by our resident judges and special guest judges. Here are just a few of the things that set ULTRA’s Competition apart: 
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left" valign="top" style="padding-bottom: 30px;">
+                                                <table border="0" cellspacing="0" cellpadding="0" class="fluid">
+                                                    <tr>
+                                                        <!-- column -->
+                                                        <td align="left" valign='top' width="240" class="fluid-content pr-0 pb-30" style="padding-right: 20px;">
+                                                            <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                                <tr>
+                                                                    <td align="left" valign="top">
+                                                                        <table border="0" cellspacing="0" cellpadding="0" class="fluid">
+                                                                            <tr>
+                                                                                <td align="left" valign="middle" style="padding-right: 5px;">
+                                                                                    <img src="https://i.ibb.co/HYXK33s/1.png" width="60" alt="">
+                                                                                </td>
+                                                                                <td align="left" valign="middle" style="font-family: 'Poppins', sans-serif; font-weight: 900; color: #1fc4d7; font-size: 22px; text-transform: uppercase; line-height: 100%;">
+                                                                                    INSTANT & TRANSPARENT SCORING
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left" valign="top" style="font-family: 'Poppins', sans-serif; font-weight: 400; color: #dfdfdf; font-size: 12px; line-height: 16px; padding-top: 15px;">
+                                                                        Just seconds after the conclusion of every performance, dancers and audience members can look at the screens located on the side of our stage to see each performance’s total composite score. Additionally, stay up to date on the current Highest Scoring Overall Performances for the present division by viewing the screens at any time. <span style="color: #d71362;">Feature only available in our Ultra Competitive Level.</span> 
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left" valign="top" style="padding-top: 30px;">
+                                                                        <table border="0" cellspacing="0" cellpadding="0" class="fluid">
+                                                                            <tr>
+                                                                                <td align="left" valign="middle" style="padding-right: 5px;">
+                                                                                    <img src="https://i.ibb.co/nrHXQ4M/3.png" width="60" alt="">
+                                                                                </td>
+                                                                                <td align="left" valign="middle" style="font-family: 'Poppins', sans-serif; font-weight: 900; color: #1fc4d7; font-size: 22px; text-transform: uppercase; line-height: 100%;">
+                                                                                    STATE-OF -THE-ART- PRODUCTION
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left" valign="top" style="font-family: 'Poppins', sans-serif; font-weight: 400; color: #dfdfdf; font-size: 12px; line-height: 16px; padding-top: 15px;">
+                                                                        At Ultra, you won’t feel like you are at just another dance competition. With state-of-the-art production, interactive lighting, and special effects, dancers will look and feel like the artists they were born to be. We go above and beyond not only to give your dancers the highest quality photos and videos, but to provide parents, teachers, dancers, and audience members the highest quality experience.
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left" valign="top" style="padding-top: 30px;">
+                                                                        <table border="0" cellspacing="0" cellpadding="0" class="fluid">
+                                                                            <tr>
+                                                                                <td align="left" valign="middle" style="padding-right: 5px;">
+                                                                                    <img src="https://i.ibb.co/0hLjL1r/5.png" width="60" alt="">
+                                                                                </td>
+                                                                                <td align="left" valign="middle" style="font-family: 'Poppins', sans-serif; font-weight: 900; color: #1fc4d7; font-size: 22px; text-transform: uppercase; line-height: 100%;">
+                                                                                    rapid access to photos & videos
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left" valign="top" style="font-family: 'Poppins', sans-serif; font-weight: 400; color: #dfdfdf; font-size: 12px; line-height: 16px; padding-top: 15px;">
+                                                                        At Ultra, receive accelerated access to your dancers’ photos and videos.  At the conclusion of each performance, wait no longer than 5 hours to view your dancers' high-quality photos and videos in the Parent Center. 
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                        <!-- column -->
+                                                        <td align="left" valign='top' width="240" class="fluid-content pl-0" style="padding-left: 20px;">
+                                                            <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                                <tr>
+                                                                    <td align="left" valign="top">
+                                                                        <table border="0" cellspacing="0" cellpadding="0" class="fluid">
+                                                                            <tr>
+                                                                                <td align="left" valign="middle" style="padding-right: 5px;">
+                                                                                    <img src="https://i.ibb.co/YD70hJq/2.png" width="60" alt="">
+                                                                                </td>
+                                                                                <td align="left" valign="middle" style="font-family: 'Poppins', sans-serif; font-weight: 900; color: #1fc4d7; font-size: 22px; text-transform: uppercase; line-height: 100%;">
+                                                                                    LIVE JUDGES FEEDBACK
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left" valign="top" style="font-family: 'Poppins', sans-serif; font-weight: 400; color: #dfdfdf; font-size: 12px; line-height: 16px; padding-top: 15px;">
+                                                                        Dancers receive personalized, constructive, and effective feedback throughout their performance from top tier and well-rounded judges who work in the dance industry. Additionally, each of the judges has the opportunity to press our “Power Performance” button. When a judge presses their “ <span style="font-weight: 800; color: #1fc4d7; text-transform: uppercase; font-style: italic;">Power Performance</span> ” button this allows the judge to give live commentary to the dancers on stage at the conclusion of their performance.  
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left" valign="top" style="padding-top: 30px;">
+                                                                        <table border="0" cellspacing="0" cellpadding="0" class="fluid">
+                                                                            <tr>
+                                                                                <td align="left" valign="middle" style="padding-right: 5px;">
+                                                                                    <img src="https://i.ibb.co/b2mfsh5/4.png" width="60" alt="">
+                                                                                </td>
+                                                                                <td align="left" valign="middle" style="font-family: 'Poppins', sans-serif; font-weight: 900; color: #1fc4d7; font-size: 22px; text-transform: uppercase; line-height: 100%;">
+                                                                                    frontrow video angle
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left" valign="top" style="font-family: 'Poppins', sans-serif; font-weight: 400; color: #dfdfdf; font-size: 12px; line-height: 16px; padding-top: 15px;">
+                                                                        The NEW FRONTROW Video Angle is an intimate up-close, front-and-center video of your dancer’s performances. A great way to see what the judges see!
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left" valign="top" style="padding-top: 30px;">
+                                                                        <table border="0" cellspacing="0" cellpadding="0" class="fluid">
+                                                                            <tr>
+                                                                                <td align="left" valign="middle" style="padding-right: 5px;">
+                                                                                    <img src="https://i.ibb.co/JmMkwbL/6.png" width="60" alt="">
+                                                                                </td>
+                                                                                <td align="left" valign="middle" style="font-family: 'Poppins', sans-serif; font-weight: 900; color: #1fc4d7; font-size: 22px; text-transform: uppercase; line-height: 100%;">
+                                                                                    DYNAMIC TAP MICROPHONES
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left" valign="top" style="font-family: 'Poppins', sans-serif; font-weight: 400; color: #dfdfdf; font-size: 12px; line-height: 16px; padding-top: 15px;">
+                                                                        At Ultra, we want to hear your tap sounds loud and clear! Our judges and audience members will hear every shuffle and pull back with our mic’d stages for our tap and clogging routines. 
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left" valign="top" style="padding-top: 30px;">
+                                                                        <table border="0" cellspacing="0" cellpadding="0" class="fluid">
+                                                                            <tr>
+                                                                                <td align="left" valign="middle" style="padding-right: 5px;">
+                                                                                    <img src="https://i.ibb.co/zSDwLgp/7.png" width="60" alt="">
+                                                                                </td>
+                                                                                <td align="left" valign="middle" style="font-family: 'Poppins', sans-serif; font-weight: 900; color: #1fc4d7; font-size: 22px; text-transform: uppercase; line-height: 100%;">
+                                                                                    EASY ONLINE REGISTRATION
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left" valign="top" style="font-family: 'Poppins', sans-serif; font-weight: 400; color: #dfdfdf; font-size: 12px; line-height: 16px; padding-top: 15px;">
+                                                                        Everything related to our competition can be easily accomplished through your personalized Studio Center account: Easily copy your registration from any KAR or Rainbow Competition <span style="font-weight: 800; color: #1fc4d7; text-transform: uppercase; font-style: italic;">PLUS</span> explore your video critiques, score sheets, music uploading, results & more!
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" valign="top" bgcolor="#D71462" background="https://i.ibb.co/DrSKZ77/gradient.png" style="background-color: #D71462; padding-top: 20px; padding-bottom: 20px; background-image: url(https://i.ibb.co/DrSKZ77/gradient.png); background-repeat: no-repeat; background-size: cover; background-position: center;">
+                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                        <td align="center" valign="middle" class="f-34" style="font-family: 'Poppins', sans-serif; font-weight: 900; color: #fff; font-size: 60px; text-transform: uppercase; line-height: 47px;">
+                                                            2022 DANCE <br> TOUR DATES
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- block 2 -->
+
+                            <!-- block 3 -->
+                            <tr>
+                                <td align="left" valign="top" class="fluid px-20" style="padding-left: 40px; padding-right: 40px; padding-top: 20px; padding-bottom: 50px;">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <tr>
+                                            <td align="left" valign="top" style="font-family: 'Poppins', sans-serif;">
+                                                <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                    <!-- row 1 -->
+                                                    <tr>
+                                                        <!-- column -->
+                                                        <td align="left" valign="middle" style="padding-bottom: 30px;">
+                                                            <table border="0" cellspacing="0" cellpadding="0">
+                                                                <tr>
+                                                                    <td align="left" valign="top" class="f-16" style="font-size: 20px; color: #00ffff;font-family: 'Poppins', sans-serif; line-height: 100%; font-weight: 400;">FEB. 11-13</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left" valign="top" class="f-16" style="font-size: 25px; color: #fff;font-family: 'Poppins', sans-serif; line-height: 100%; font-weight: 900;">FALLBROOK, CA</td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                        <td align="right" valign="middle" style="padding-bottom: 30px;">
+                                                            <a href="#" target="_blank" style="text-decoration: none;">
+                                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td align="center" valign="middle" class="f-16" height="75" background="https://i.ibb.co/gMZqpB5/gradient-2.png" bgcolor="#D71462" style="font-size: 25px; color: #fff;font-family: 'Poppins', sans-serif; line-height: 100%; font-weight: 900; background-color: #D71462; padding-left: 15px; padding-right: 15px; background-image: url(https://i.ibb.co/gMZqpB5/gradient-2.png); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                                                                            MORE DETAILS
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </a>                                                            
+                                                        </td>
+                                                    </tr>
+                                                    <!-- row 2 -->
+                                                    <tr>
+                                                        <!-- column -->
+                                                        <td align="left" valign="middle" style="padding-bottom: 30px;">
+                                                            <table border="0" cellspacing="0" cellpadding="0">
+                                                                <tr>
+                                                                    <td align="left" valign="top" class="f-16" style="font-size: 20px; color: #00ffff;font-family: 'Poppins', sans-serif; line-height: 100%; font-weight: 400;">FEB. 18-20</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left" valign="top" class="f-16" style="font-size: 25px; color: #fff;font-family: 'Poppins', sans-serif; line-height: 100%; font-weight: 900;">PHOENIX, AZ</td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                        <td align="right" valign="middle" style="padding-bottom: 30px;">
+                                                            <a href="#" target="_blank" style="text-decoration: none;">
+                                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td align="center" class="f-16" valign="middle" height="75" background="https://i.ibb.co/gMZqpB5/gradient-2.png" bgcolor="#D71462" style="font-size: 25px; color: #fff;font-family: 'Poppins', sans-serif; line-height: 100%; font-weight: 900; background-color: #D71462; padding-left: 15px; padding-right: 15px; background-image: url(https://i.ibb.co/gMZqpB5/gradient-2.png); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                                                                            MORE DETAILS
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </a>                                                            
+                                                        </td>
+                                                    </tr>
+                                                    <!-- row 3 -->
+                                                    <tr>
+                                                        <!-- column -->
+                                                        <td align="left" valign="middle" style="padding-bottom: 30px;">
+                                                            <table border="0" cellspacing="0" cellpadding="0">
+                                                                <tr>
+                                                                    <td align="left" class="f-16" valign="top" style="font-size: 20px; color: #00ffff;font-family: 'Poppins', sans-serif; line-height: 100%; font-weight: 400;">MAR. 18-20</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left" class="f-16" valign="top" style="font-size: 25px; color: #fff;font-family: 'Poppins', sans-serif; line-height: 100%; font-weight: 900;">SAN GABRIEL, CA</td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                        <td align="right" valign="middle" style="padding-bottom: 30px;">
+                                                            <a href="#" target="_blank" style="text-decoration: none;">
+                                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td align="center" class="f-16" valign="middle" height="75" background="https://i.ibb.co/gMZqpB5/gradient-2.png" bgcolor="#D71462" style="font-size: 25px; color: #fff;font-family: 'Poppins', sans-serif; line-height: 100%; font-weight: 900; background-color: #D71462; padding-left: 15px; padding-right: 15px; background-image: url(https://i.ibb.co/gMZqpB5/gradient-2.png); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                                                                            MORE DETAILS
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </a>                                                            
+                                                        </td>
+                                                    </tr>
+                                                    <!-- row 4 -->
+                                                    <tr>
+                                                        <!-- column -->
+                                                        <td align="left" valign="middle" style="padding-bottom: 30px;">
+                                                            <table border="0" cellspacing="0" cellpadding="0">
+                                                                <tr>
+                                                                    <td align="left" class="f-16" valign="top" style="font-size: 20px; color: #00ffff;font-family: 'Poppins', sans-serif; line-height: 100%; font-weight: 400;">MAR. 25-27</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left" class="f-16" valign="top" style="font-size: 25px; color: #fff;font-family: 'Poppins', sans-serif; line-height: 100%; font-weight: 900;">HOUSTON, TX</td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                        <td align="right" valign="middle" style="padding-bottom: 30px;">
+                                                            <a href="#" target="_blank" style="text-decoration: none;">
+                                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td align="center" class="f-16" valign="middle" height="75" background="https://i.ibb.co/gMZqpB5/gradient-2.png" bgcolor="#D71462" style="font-size: 25px; color: #fff;font-family: 'Poppins', sans-serif; line-height: 100%; font-weight: 900; background-color: #D71462; padding-left: 15px; padding-right: 15px; background-image: url(https://i.ibb.co/gMZqpB5/gradient-2.png); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                                                                            MORE DETAILS
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </a>                                                            
+                                                        </td>
+                                                    </tr>
+                                                    <!-- row 5 -->
+                                                    <tr>
+                                                        <!-- column -->
+                                                        <td align="left" valign="middle" style="padding-bottom: 30px;">
+                                                            <table border="0" cellspacing="0" cellpadding="0">
+                                                                <tr>
+                                                                    <td align="left" class="f-16" valign="top" style="font-size: 20px; color: #00ffff;font-family: 'Poppins', sans-serif; line-height: 100%; font-weight: 400;">APR. 1-3</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left" class="f-16" valign="top" style="font-size: 25px; color: #fff;font-family: 'Poppins', sans-serif; line-height: 100%; font-weight: 900;">COLUMBUS, OH</td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                        <td align="right" valign="middle" style="padding-bottom: 30px;">
+                                                            <a href="#" target="_blank" style="text-decoration: none;">
+                                                                <table border="0" class="f-16" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td align="center" class="f-16" valign="middle" height="75" background="https://i.ibb.co/gMZqpB5/gradient-2.png" bgcolor="#D71462" style="font-size: 25px; color: #fff;font-family: 'Poppins', sans-serif; line-height: 100%; font-weight: 900; background-color: #D71462; padding-left: 15px; padding-right: 15px; background-image: url(https://i.ibb.co/gMZqpB5/gradient-2.png); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                                                                            MORE DETAILS
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </a>                                                            
+                                                        </td>
+                                                    </tr>
+                                                    <!-- row 6 -->
+                                                    <tr>
+                                                        <!-- column -->
+                                                        <td align="left" valign="middle" style="padding-bottom: 30px;">
+                                                            <table border="0" cellspacing="0" cellpadding="0">
+                                                                <tr>
+                                                                    <td align="left" class="f-16" valign="top" style="font-size: 20px; color: #00ffff;font-family: 'Poppins', sans-serif; line-height: 100%; font-weight: 400;">APR. 23-24</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left" class="f-16" valign="top" style="font-size: 25px; color: #fff;font-family: 'Poppins', sans-serif; line-height: 100%; font-weight: 900;">HOT SPRINGS, AR</td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                        <td align="right" valign="middle" style="padding-bottom: 30px;">
+                                                            <a href="#" target="_blank" style="text-decoration: none;">
+                                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td align="center" class="f-16" valign="middle" height="75" background="https://i.ibb.co/gMZqpB5/gradient-2.png" bgcolor="#D71462" style="font-size: 25px; color: #fff;font-family: 'Poppins', sans-serif; line-height: 100%; font-weight: 900; background-color: #D71462; padding-left: 15px; padding-right: 15px; background-image: url(https://i.ibb.co/gMZqpB5/gradient-2.png); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                                                                            MORE DETAILS
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </a>                                                            
+                                                        </td>
+                                                    </tr>
+                                                    <!-- row 7 -->
+                                                    <tr>
+                                                        <!-- column -->
+                                                        <td align="left" valign="middle" style="padding-bottom: 30px;">
+                                                            <table border="0" cellspacing="0" cellpadding="0">
+                                                                <tr>
+                                                                    <td align="left" class="f-16" valign="top" style="font-size: 20px; color: #00ffff;font-family: 'Poppins', sans-serif; line-height: 100%; font-weight: 400;">APR. 29- MAY 1</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left" class="f-16" valign="top" style="font-size: 25px; color: #fff;font-family: 'Poppins', sans-serif; line-height: 100%; font-weight: 900;">DETROIT, MI</td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                        <td align="right" valign="middle" style="padding-bottom: 30px;">
+                                                            <a href="#" target="_blank" style="text-decoration: none;">
+                                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td align="center" class="f-16" valign="middle" height="75" background="https://i.ibb.co/gMZqpB5/gradient-2.png" bgcolor="#D71462" style="font-size: 25px; color: #fff;font-family: 'Poppins', sans-serif; line-height: 100%; font-weight: 900; background-color: #D71462; padding-left: 15px; padding-right: 15px; background-image: url(https://i.ibb.co/gMZqpB5/gradient-2.png); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                                                                            MORE DETAILS
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </a>                                                            
+                                                        </td>
+                                                    </tr>
+                                                    <!-- row 8 -->
+                                                    <tr>
+                                                        <!-- column -->
+                                                        <td align="left" valign="middle" style="padding-bottom: 30px;">
+                                                            <table border="0" cellspacing="0" cellpadding="0">
+                                                                <tr>
+                                                                    <td align="left" class="f-16" valign="top" style="font-size: 20px; color: #00ffff;font-family: 'Poppins', sans-serif; line-height: 100%; font-weight: 400;">MAY 6-8</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left" class="f-16" valign="top" style="font-size: 25px; color: #fff;font-family: 'Poppins', sans-serif; line-height: 100%; font-weight: 900;">TOPEKA, KS</td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                        <td align="right" valign="middle" style="padding-bottom: 30px;">
+                                                            <a href="#" target="_blank" style="text-decoration: none;">
+                                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td align="center" class="f-16" valign="middle" height="75" background="https://i.ibb.co/gMZqpB5/gradient-2.png" bgcolor="#D71462" style="font-size: 25px; color: #fff;font-family: 'Poppins', sans-serif; line-height: 100%; font-weight: 900; background-color: #D71462; padding-left: 15px; padding-right: 15px; background-image: url(https://i.ibb.co/gMZqpB5/gradient-2.png); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                                                                            MORE DETAILS
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </a>                                                            
+                                                        </td>
+                                                    </tr>
+                                                    <!-- row 9 -->
+                                                    <tr>
+                                                        <!-- column -->
+                                                        <td align="left" valign="middle" style="padding-bottom: 30px;">
+                                                            <table border="0" cellspacing="0" cellpadding="0">
+                                                                <tr>
+                                                                    <td align="left" class="f-16" valign="top" style="font-size: 20px; color: #00ffff;font-family: 'Poppins', sans-serif; line-height: 100%; font-weight: 400;">MAY 13-15</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left" class="f-16" valign="top" style="font-size: 25px; color: #fff;font-family: 'Poppins', sans-serif; line-height: 100%; font-weight: 900;">DENVER, CO</td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                        <td align="right" valign="middle" style="padding-bottom: 30px;">
+                                                            <a href="#" target="_blank" style="text-decoration: none;">
+                                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td align="center" class="f-16" valign="middle" height="75" background="https://i.ibb.co/gMZqpB5/gradient-2.png" bgcolor="#D71462" style="font-size: 25px; color: #fff;font-family: 'Poppins', sans-serif; line-height: 100%; font-weight: 900; background-color: #D71462; padding-left: 15px; padding-right: 15px; background-image: url(https://i.ibb.co/gMZqpB5/gradient-2.png); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                                                                            MORE DETAILS
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </a>                                                            
+                                                        </td>
+                                                    </tr>
+                                                    <!-- row 10 -->
+                                                    <tr>
+                                                        <!-- column -->
+                                                        <td align="left" valign="middle" style="padding-bottom: 30px;">
+                                                            <table border="0" cellspacing="0" cellpadding="0">
+                                                                <tr>
+                                                                    <td align="left" class="f-16" valign="top" style="font-size: 20px; color: #00ffff;font-family: 'Poppins', sans-serif; line-height: 100%; font-weight: 400;">MAY 20-22</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left" class="f-16" valign="middle" style="font-size: 25px; color: #fff;font-family: 'Poppins', sans-serif; line-height: 100%; font-weight: 900;">RENO, NV &nbsp; <img src="https://i.ibb.co/NnCPtFR/power.png" style="vertical-align: middle;" width="30px" alt=""></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left" valign="top" style="font-size: 16px; color: #fe066a;font-family: 'Poppins', sans-serif; line-height: 100%; font-weight: 400;">⤑ COMPETITION & CONVENTION</td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                        <td align="right" valign="middle" style="padding-bottom: 30px;">
+                                                            <a href="#" target="_blank" style="text-decoration: none;">
+                                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td align="center" class="f-16" valign="middle" height="75" background="https://i.ibb.co/gMZqpB5/gradient-2.png" bgcolor="#D71462" style="font-size: 25px; color: #fff;font-family: 'Poppins', sans-serif; line-height: 100%; font-weight: 900; background-color: #D71462; padding-left: 15px; padding-right: 15px; background-image: url(https://i.ibb.co/gMZqpB5/gradient-2.png); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                                                                            MORE DETAILS
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </a>                                                            
+                                                        </td>
+                                                    </tr>
+                                                    <!-- row 11 -->
+                                                    <tr>
+                                                        <!-- column -->
+                                                        <td align="left" valign="middle" style="padding-bottom: 30px;">
+                                                            <table border="0" cellspacing="0" cellpadding="0">
+                                                                <tr>
+                                                                    <td align="left" class="f-16" valign="top" style="font-size: 20px; color: #00ffff;font-family: 'Poppins', sans-serif; line-height: 100%; font-weight: 400;">JUNE 10-12</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left" class="f-16" valign="top" style="font-size: 25px; color: #fff;font-family: 'Poppins', sans-serif; line-height: 100%; font-weight: 900;">LOS ANGELES, CA</td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                        <td align="right" valign="middle" style="padding-bottom: 30px;">
+                                                            <a href="#" target="_blank" style="text-decoration: none;">
+                                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td align="center" class="f-16" valign="middle" height="75" background="https://i.ibb.co/gMZqpB5/gradient-2.png" bgcolor="#D71462" style="font-size: 25px; color: #fff;font-family: 'Poppins', sans-serif; line-height: 100%; font-weight: 900; background-color: #D71462; padding-left: 15px; padding-right: 15px; background-image: url(https://i.ibb.co/gMZqpB5/gradient-2.png); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                                                                            MORE DETAILS
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </a>                                                            
+                                                        </td>
+                                                    </tr>
+
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" valign="top" style="padding-top: 20px; padding-bottom: 10px;">
+                                                <img src="https://i.ibb.co/FnzxZFP/KAR-Finals.png" style="max-width: 520px;" width="520px" class="fluid" alt="">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" class="px-0" valign="top" style="font-family: 'Poppins', sans-serif; font-weight: 400; color: #dfdfdf; font-size: 16px; line-height: 20px; font-style: italic; padding-left: 50px; padding-right: 50px;">
+                                                All performances winning an Elite Top First, Top First or First Place award will be qualified to register at any of the 2022 KAR National Finals!
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- block 3 -->
+
+                            <!-- block 4 -->
+                            <tr>
+                                <td align="left" valign="top" class="fluid px-20" style="padding-left: 40px; padding-right: 40px;">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <tr>
+                                            <td align="left" valign="top" style="font-family: 'Poppins', sans-serif;">
+                                                <a href="#" target="_blank">
+                                                    <img src="https://i.ibb.co/pRxLC1G/Vector-Smart-Object.png" style="max-width: 520px;" class="fluid" width="520" alt="">
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" valign="top" style="font-family: 'Poppins', sans-serif; font-weight: 400; color: #dfdfdf; font-size: 23px; line-height: 30px; font-style: italic; padding-top: 20px; padding-bottom: 20px;">
+                                                Tune in for our weekly ULTRACAST Live Stream. Each week our broadcast will feature a live feed from our ULTRA competition as well as our live results during the Ultra Competitive Level <span style="color: #1fc4d7; font-weight: 900;">Plus</span> <span style="font-weight: 900;">highlights of the best moments of our 2022 season!</span>  
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- block 4 -->
+
+                            <!-- block 5 -->
+                            <tr>
+                                <td align="left" valign="top" class="fluid px-20" style="padding-left: 40px;padding-right: 40px;padding-top: 100px;padding-bottom: 100px;background-image: url(https://i.ibb.co/B4Wb0s2/bg-faded.png);background-repeat: no-repeat;background-size: 100% 100%;background-position: center;">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <tr>
+                                            <td align="right" valign="top" style="font-family: 'Poppins', sans-serif;">
+                                                <table border="0" cellspacing="0" cellpadding="0" width="380" class="fluid">
+                                                    <tr>
+                                                        <td align="left" valign="top" style="font-family: 'Poppins', sans-serif; font-weight: 300; color: #fff; font-size: 14px; text-transform: uppercase; line-height: 100%;">SOLO CHAMPIONSHIP SERIES</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left" valign="top" style="font-family: 'Poppins', sans-serif; font-weight: 700; color: #fff; font-size: 32px; text-transform: uppercase; line-height: 100%; padding-bottom: 15px;">DANCE of the year</td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="right" valign="top" style="font-family: 'Poppins', sans-serif; padding-right: 20px; padding-left: 20px;">
+                                                <table border="0" cellspacing="0" cellpadding="0" width="340" class="fluid">
+                                                    <tr>
+                                                        <td align="left" valign="top" style="font-family: 'Poppins', sans-serif; font-weight: 400; color: #dfdfdf; font-size: 12px; line-height: 20px;">
+                                                            Pre-registered soloists have the option to compete in our Ultra Champion Competition. This additional competition is judged using a separate and unique scoring system. Judges assess Performance Quality and Artistry at a higher point value in comparison to our normal competition. Register now and compete to be named our new Ultra Champion. 
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="center" valign="top" style="padding-top: 50px;">
+                                                            <a href="#" target="_blank" style="text-decoration: none;">
+                                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td align="center" valign="middle" height="40" bgcolor="#D71362" style="font-family: 'Poppins', sans-serif; font-weight: 700; color: #fff; font-size: 12px; text-transform: uppercase; line-height: 100%; background-color: #D71362; padding-left: 20px; padding-right: 20px; background-image: url(https://i.ibb.co/K2XsHGT/gradient-4.png); background-position: center; background-size: cover; background-repeat: no-repeat;">
+                                                                            register now
+                                                                        </td>
+                                                                    </tr>
+                                                                </table> 
+                                                            </a>                                                            
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- block 5 -->
+
+                            <!-- block 6 -->
+                            <tr>
+                                <td align="left" valign="top" class="fluid px-20" style="padding-left: 40px;padding-right: 40px;padding-top: 50px;padding-bottom: 50px;background-image: url(https://i.ibb.co/rdy1Rf1/bg-2.png);background-repeat: no-repeat;background-size: 53%;background-position: 8px 18px;">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <tr>
+                                            <td align="right" valign="top" style="font-family: 'Poppins', sans-serif;" class="pl-100">
+                                                <table border="0" cellspacing="0" cellpadding="0" class="fluid" width="250">                                                    
+                                                    <tr>
+                                                        <td align="left" valign="top" style="font-family: 'Poppins', sans-serif; font-weight: 700; color: #fff; font-size: 28px; text-transform: uppercase; line-height: 100%;">DANCER <br> HEADSHOT</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left" valign="top" style="font-family: 'Poppins', sans-serif; font-weight: 300; color: #fff; font-size: 14px; text-transform: uppercase; line-height: 100%; padding-bottom: 15px;">CONTEST</td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="right" valign="top" class="pl-100" style="font-family: 'Poppins', sans-serif; padding-left: 20px;">
+                                                <table border="0" cellspacing="0" cellpadding="0" class="fluid" width="200">
+                                                    <tr>
+                                                        <td align="left" valign="top" style="font-family: 'Poppins', sans-serif; font-weight: 400; color: #dfdfdf; font-size: 8px; line-height: 14px;">
+                                                            This is a not a beauty contest. Learning to take a professional quality head shot that highlights ones best features and shows a true and raw version of themselves is an important skill in the professional dance world. Photo quality, creativity, and composition are vital to a great photo. Presentation through grooming and wardrobe, expressing emotion through facial expressions, and use of the eyes to enchant the camera are all factors in choosing the winners of our contest. 
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left" valign="top" style="padding-top: 40px;">
+                                                            <a href="#" target="_blank" style="text-decoration: none;">
+                                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td align="center" valign="middle" height="40" bgcolor="#D71362" style="font-family: 'Poppins', sans-serif; font-weight: 700; color: #fff; font-size: 12px; text-transform: uppercase; line-height: 100%; background-color: #D71362; padding-left: 20px; padding-right: 20px; background-image: url(https://i.ibb.co/K2XsHGT/gradient-4.png); background-position: center; background-size: cover; background-repeat: no-repeat;">
+                                                                            register now
+                                                                        </td>
+                                                                    </tr>
+                                                                </table> 
+                                                            </a>                                                            
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- block 6 -->
+
+                            <!-- block 7 -->
+                            <tr>
+                                <td align="left" valign="top" class="fluid px-20" style="padding-left: 40px; padding-right: 40px; padding-top: 40px; padding-bottom: 40px;">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <tr>
+                                            <td align="center" valign="top" bgcolor="#D71462" background="https://i.ibb.co/DrSKZ77/gradient.png" style="background-color: #D71462; padding-top: 20px; padding-bottom: 20px; background-image: url(https://i.ibb.co/DrSKZ77/gradient.png); background-repeat: no-repeat; background-size: cover; background-position: center;">
+                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                        <td align="center" valign="middle" class="f-25 lh-100" style="font-family: 'Poppins', sans-serif; font-weight: 900; color: #fff; font-size: 40px; text-transform: uppercase; line-height: 40px;">
+                                                            REGISTRATION OPENS <br> SEPTEMEBR 15th
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" valign="top" class="f-20" style="font-family: 'Poppins', sans-serif; font-weight: 300; color: #fff; font-size: 25px; text-transform: uppercase; line-height: 100%; padding-bottom: 15px; padding-top: 30px;">Thank You,</td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" valign="top">
+                                                <img src="https://i.ibb.co/CVs9D5V/Thank-You-Team-Ultra.png" class="w-175" width="250px" style="max-width: 250px; vertical-align: middle;" alt="">
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- block 7 -->
+
+                            <!-- block 8 -->
+                            <tr>
+                                <td align="left" valign="middle" class="fluid px-20" height="220" style="padding-left: 20px; padding-right: 20px; background-image: url(https://i.ibb.co/58cNzb3/footer-bg-0.png); background-position: center; background-repeat: no-repeat; background-size: 100% 100%; padding-top: 40px;">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <tr>
+                                            <td align="center" valign="top" style="font-family: 'Poppins', sans-serif;">
+                                                <a href="#" target="_blank">
+                                                    <img src="https://i.ibb.co/9yzt55B/logo-footer.png" width="170" class="w-150" style="max-width: 200px;" alt="">
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" valign="top" style="padding-top: 20px;">
+                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                        <td align="left" valign="top" width="70">
+                                                            <a href="#" target="_blank">
+                                                                <img src="https://i.ibb.co/XysQH99/facebook.png" width="50" alt="">
+                                                            </a>
+                                                        </td>
+                                                        <td align="left" valign="top" width="70">
+                                                            <a href="#" target="_blank">
+                                                                <img src="https://i.ibb.co/pnTmR1y/instagram.png" width="50" alt="">
+                                                            </a>
+                                                        </td>
+                                                        <td align="left" valign="top">
+                                                            <a href="#" target="_blank">
+                                                                <img src="https://i.ibb.co/M10gnNF/youtube.png" width="50" alt="">
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- block 8 -->
+
+                            <!-- footer -->
+                            <tr>
+                                <td align="left" valign="top" class="fluid" bgcolor="#0B051C" style="padding-left: 20px; padding-right: 20px; padding-top: 30px; padding-bottom: 30px; background-color: #0B051C;">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <tr>
+                                            <td align="center" valign="top" style="font-family: 'Poppins', sans-serif; font-weight: 400; color: #dfdfdf; font-size: 12px; line-height: 14px;">
+                                                ULTRA DANCE TOUR <span style="color: #54525b;">&copy; 2021 All Rights Reserved</span>  Terms of Use <span style="color: #54525b;">and</span>  Privacy Policy
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- footer -->
+
+
+                            <!-- TYPOGRAPHY HERE
+                            <tr>
+                                <td align="left" valign="top" class="fluid" style="padding-left: 20px; padding-right: 20px;">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <tr>
+                                            <td align="left" valign="top" style="font-family: 'Poppins', sans-serif;"></td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                             -->
+
+                        </table>
+                        <!-- // END TEMPLATE -->
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>
