@@ -1,0 +1,532 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8">
+        <meta name="x-apple-disable-message-reformatting">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>*|MC:SUBJECT|*</title>
+        <style type="text/css">
+        	@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+            @media only screen and (max-width: 480px){
+                /* ===== TYPOGRAPHY ======== */
+                #bodyCell{padding: 0 !important;}
+                #templateContainer{width: 100% !important;}
+                .fluid{width: 100% !important; max-width: 100% !important;}
+                .fluid-content{display: block !important; width: 100% !important;}
+                /*display*/
+                .none{display: none !important;}
+                .block{display: block !important;}
+                /*wdith*/
+                .w-25{width: 25px !important;}
+                .w-50{width: 50px !important;}
+                .w-75{width: 75px !important;}
+                .w-100{width: 100px !important;}
+                .w-125{width: 125px !important;}
+                .w-150{width: 150px !important;}
+                .w-175{width: 175px !important;}
+                .w-200{width: 200px !important;}
+                .w-225{width: 225px !important;}
+                .w-250{width: 250px !important;}
+                .w-275{width: 275px !important;}
+                .w-300{width: 300px !important;}
+                /*padding*/
+                .p-0{padding: 0 !important;}
+                .pt-0{padding-top: 0 !important;}
+                .pb-0{padding-bottom: 0 !important;}
+                .pr-0{padding-right: 0 !important;}
+                .pl-0{padding-left: 0 !important;}
+
+                .p-10{padding: 10px !important;}
+                .pt-10{padding-top: 10px !important;}
+                .pb-10{padding-bottom: 10px !important;}
+                .pr-10{padding-right: 10px !important;}
+                .pl-10{padding-left: 10px !important;}
+
+                .p-15{padding: 15px !important;}
+                .pt-15{padding-top: 15px !important;}
+                .pb-15{padding-bottom: 15px !important;}
+                .pr-15{padding-right: 15px !important;}
+                .pl-15{padding-left: 15px !important;}
+
+                .p-20{padding: 20px !important;}
+                .pt-20{padding-top: 20px !important;}
+                .pb-20{padding-bottom: 20px !important;}
+                .pr-20{padding-right: 20px !important;}
+                .pl-20{padding-left: 20px !important;}
+
+                .p-25{padding: 25px !important;}
+                .pt-25{padding-top: 25px !important;}
+                .pb-25{padding-bottom: 25px !important;}
+                .pr-25{padding-right: 25px !important;}
+                .pl-25{padding-left: 25px !important;}
+
+                .p-30{padding: 30px !important;}
+                .pt-30{padding-top: 30px !important;}
+                .pb-30{padding-bottom: 30px !important;}
+                .pr-30{padding-right: 30px !important;}
+                .pl-30{padding-left: 30px !important;}
+
+                .p-35{padding: 35px !important;}
+                .pt-35{padding-top: 35px !important;}
+                .pb-35{padding-bottom: 35px !important;}
+                .pr-35{padding-right: 35px !important;}
+                .pl-35{padding-left: 35px !important;}
+
+                .p-40{padding: 40px !important;}
+                .pt-40{padding-top: 40px !important;}
+                .pb-40{padding-bottom: 40px !important;}
+                .pr-40{padding-right: 40px !important;}
+                .pl-40{padding-left: 40px !important;}
+
+                .p-45{padding: 45px !important;}
+                .pt-45{padding-top: 45px !important;}
+                .pb-45{padding-bottom: 45px !important;}
+                .pr-45{padding-right: 45px !important;}
+                .pl-45{padding-left: 45px !important;}
+
+                .p-50{padding: 50px !important;}
+                .pt-50{padding-top: 50px !important;}
+                .pb-50{padding-bottom: 50px !important;}
+                .pr-50{padding-right: 50px !important;}
+                .pl-50{padding-left: 50px !important;}
+
+                .px-0{padding-left: 0px !important; padding-right: 0px !important;}
+                .py-0{padding-top: 0px !important; padding-bottom: 0px !important;}
+
+                .px-10{padding-left: 10px !important; padding-right: 10px !important;}
+                .py-10{padding-top: 10px !important; padding-bottom: 10px !important;}
+
+                .px-15{padding-left: 15px !important; padding-right: 15px !important;}
+                .py-15{padding-top: 15px !important; padding-bottom: 15px !important;}
+
+                .px-20{padding-left: 20px !important; padding-right: 20px !important;}
+                .py-20{padding-top: 20px !important; padding-bottom: 20px !important;}
+
+                .px-25{padding-left: 25px !important; padding-right: 25px !important;}
+                .py-25{padding-top: 25px !important; padding-bottom: 25px !important;}
+
+                .px-30{padding-left: 30px !important; padding-right: 30px !important;}
+                .py-30{padding-top: 30px !important; padding-bottom: 30px !important;}
+
+                .px-35{padding-left: 35px !important; padding-right: 35px !important;}
+                .py-35{padding-top: 35px !important; padding-bottom: 35px !important;}
+
+                .px-40{padding-left: 40px !important; padding-right: 40px !important;}
+                .py-40{padding-top: 40px !important; padding-bottom: 40px !important;}
+
+                .px-45{padding-left: 45px !important; padding-right: 45px !important;}
+                .py-45{padding-top: 45px !important; padding-bottom: 45px !important;}
+
+                .px-50{padding-left: 50px !important; padding-right: 50px !important;}
+                .py-50{padding-top: 50px !important; padding-bottom: 50px !important;}
+
+                /*text center*/
+                .center{text-align: center !important;}
+                .left{text-align: left !important;}
+                .right{text-align: right !important;}
+                .valign-middle{vertical-align: middle !important;}
+                .valign-top{vertical-align: top !important;}
+                .valign-bottom{vertical-align: bottom !important;}
+
+                /*font-size*/
+                .f-8{font-size: 8px !important;}
+                .f-9{font-size: 9px !important;}
+                .f-10{font-size: 10px !important;}
+                .f-11{font-size: 11px !important;}
+                .f-12{font-size: 12px !important;}
+                .f-13{font-size: 13px !important;}
+                .f-14{font-size: 14px !important;}
+                .f-15{font-size: 15px !important;}
+                .f-16{font-size: 16px !important;}
+                .f-17{font-size: 17px !important;}
+                .f-18{font-size: 18px !important;}
+                .f-19{font-size: 19px !important;}
+                .f-20{font-size: 20px !important;}
+                .f-21{font-size: 21px !important;}
+                .f-22{font-size: 22px !important;}
+                .f-23{font-size: 23px !important;}
+                .f-24{font-size: 24px !important;}
+                .f-25{font-size: 25px !important;}
+                .f-26{font-size: 26px !important;}
+                .f-27{font-size: 27px !important;}
+                .f-28{font-size: 28px !important;}
+                .f-29{font-size: 29px !important;}
+                .f-30{font-size: 30px !important;}
+                .f-32{font-size: 32px !important;}
+                .f-34{font-size: 34px !important;}
+                .f-36{font-size: 36px !important;}
+                .f-38{font-size: 38px !important;}
+                .f-40{font-size: 40px !important;}
+                .f-42{font-size: 42px !important;}
+                .f-44{font-size: 44px !important;}
+                .f-46{font-size: 46px !important;}
+                .f-48{font-size: 48px !important;}
+                .f-50{font-size: 50px !important;}
+
+                /*fontwight*/
+                .bold{font-weight: 700 !important;}
+                .medium{font-weight: 500 !important;}
+                .semi-bold{font-weight: 600 !important;}
+                .black{font-weight: 900 !important;}
+                .pt-100{padding-top: 100px !important;}
+                .w-35{ width: 35px !important; }
+                .w-45{width: 45px !important;}
+                .w-10{width: 10px !important;}
+                .w-15{width: 15px !important;}
+                /* ===== TYPOGRAPHY ======== */
+            }
+        </style>
+    </head>
+    <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0" bgcolor="#fff" style="font-family: 'Roboto', sans-serif; padding: 0; margin: 0;"  yahoo="fix">
+        <center>
+            <table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable" style="background-color: #fff;">
+                <tr>
+                    <td align="center" valign="top" id="bodyCell" style="padding-top: 20px; padding-bottom: 20px;">
+                        <!-- BEGIN TEMPLATE // -->
+                        <table border="0" cellpadding="0" cellspacing="0" width="600" id="templateContainer" style="background-color: #000000; ">
+                            <!-- PREHEADER PART -->
+                            <tr>
+                                <td align="center" valign="top" bgcolor="#EFEFEF" style="background-color: #EFEFEF; padding-top: 20px; padding-bottom: 20px;">
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateHeader">
+                                        <tr>
+                                            <td valign="top" align="center" class="headerContent">
+                                                <a href="https://www.attorneyswithswag.com/" target="_blank">
+                                                	<img src="https://i.ibb.co/T4wj6zD/logo.png" width="200" style="max-width: 200px; vertical-align: middle;" class="w-150" alt="">
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- PREHEADER PART FINISH-->
+
+                            <!-- block 1 -->
+                            <tr>
+                                <td align="center" valign="top" class="fluid pt-100" bgcolor="#000" background="https://i.ibb.co/B4kc1kS/again-1.png" style="padding-left: 20px; padding-right: 20px; padding-top: 200px; padding-bottom: 50px;    background-image: url(https://i.ibb.co/B4kc1kS/again-1.png); background-repeat: no-repeat; background-size: 100% 100%; background-position: center; background-color: #000;">
+                                    <table border="0" cellspacing="0" cellpadding="0" class="fluid">
+                                    	<tr>
+                                    		<td align="center" valign="top" width="350px" class="fluid">
+                                    			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    				<tr>
+			                                            <td align="center" valign="top" class="left" style="font-family: 'Roboto', sans-serif; padding-bottom: 20px;">
+			                                            	<a href="#" target="_blank">
+			                                            		<img src="https://i.ibb.co/B46dx7q/text-1.png" width="350" class="w-300 left" style="max-width: 350px; vertical-align: middle;" alt="">
+			                                            	</a>
+			                                            </td>
+			                                        </tr>
+			                                        <tr>
+			                                            <td align="left" valign="top" style="font-family: 'Roboto', sans-serif; font-size: 12px; font-weight: 400; color: #fff; line-height: 23px;">
+			                                            	Dear
+			                                            </td>
+			                                        </tr>
+			                                        <tr>
+			                                            <td align="left" valign="top" style="font-family: 'Roboto', sans-serif; font-size: 12px; font-weight: 400; color: #fff; line-height: 23px; padding-bottom: 20px;">
+			                                            	Time is valuable. As attorneys, we get it. So we will be brief. The reason we are writing to you is because we are about to release our new single titled “RED AND BLUE” from our debut hip-hop album “PRIMIS.” 
+			                                            </td>
+			                                        </tr>
+			                                        <tr>
+			                                        	<td align="center" valign="top">
+			                                        		<table border="0" cellpadding="0" cellspacing="0">
+			                                        			<tr>
+			                                        				<td align="center" valign="top" width="45">
+			                                        					<a href="https://attorneyswithswag.com/" target="_blank">
+			                                        						<img src="https://i.ibb.co/grKjfrF/FAVICONS-AWS.png" width="25" alt="">
+			                                        					</a>
+			                                        				</td>
+			                                        				<td align="center" valign="top" width="45">
+			                                        					<a href="https://splaticus.com/" target="_blank">
+			                                        						<img src="https://i.ibb.co/tMx1PfN/FAVICONS-SPlaticus.png" width="21" alt="">
+			                                        					</a>
+			                                        				</td>
+			                                        				<td align="center" valign="top" width="45">
+			                                        					<a href="https://isoscelesny.com/" target="_blank">
+			                                        						<img src="https://i.ibb.co/Dg40y0D/FAVICONS-Isosceles.png" width="29" alt="">
+			                                        					</a>
+			                                        				</td>
+			                                        				<td align="center" valign="top" width="45">
+			                                        					<a href="https://koryanddavid.com/" target="_blank">
+			                                        						<img src="https://i.ibb.co/LRZg71t/FAVICONS-Kory-David.png" width="13" alt="">
+			                                        					</a>
+			                                        				</td>
+			                                        				<td align="center" valign="top" width="45">
+			                                        					<a href="https://garfieldanthony.com/" target="_blank">
+			                                        						<img src="https://i.ibb.co/Dp9Bt5T/FAVICONS-Garfield.png" width="23" alt="">
+			                                        					</a>
+			                                        				</td>
+			                                        			</tr>
+			                                        		</table>
+			                                        	</td>
+			                                        </tr>
+                                    			</table>                                    			
+                                    		</td>
+                                    	</tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- block 1 -->
+
+                            <!-- block 2 -->
+                            <tr>
+                                <td align="left" valign="top" class="fluid px-20" background="https://i.ibb.co/MMKhpjR/again-5.png" style="padding-left: 50px; padding-right: 50px; padding-top: 50px; padding-bottom: 50px;     background: url(https://i.ibb.co/MMKhpjR/again-5.png); background-repeat: no-repeat; background-size: cover; background-position: center;">
+                                    <table border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td align="left" valign="middle" class="fluid-content" width="250" style="font-family: 'Roboto', sans-serif; font-size: 12px; font-weight: 400; color: #fff; line-height: 23px;">
+                                            	By way of introduction, we are Attorneys with Swag – a group of young passionate minority attorneys and educators with one mission: empower the masses with an understanding of the law. We currently have a uniquely fun, entertaining, and educational web series called “Attorneys with Swag” where we discuss the law candidly over drinks with special guests with the goal of educating the people on the law to enhance their quality of life.
+                                            </td>
+                                            <td align="center" valign="middle" class="fluid-content pt-20" width="250" style="font-family: 'Roboto', sans-serif; font-size: 12px; font-weight: 400; color: #fff; line-height: 23px;">
+                                            	<a href="#" target="_blank">
+                                            		<img src="https://i.ibb.co/5cgqG9V/AWS-Logo-Assets-LARGE-LADY-copy.png" width="180" style="max-width: 180px; vertical-align: middle;" alt="">
+                                            	</a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- block 2 -->
+
+                            <!-- block 3 -->
+                            <tr>
+                                <td align="left" valign="top" class="fluid" background="https://i.ibb.co/WxgMCjJ/again-4.png" bgcolor="#000" style="padding-left: 20px; padding-right: 20px; padding-top: 50px; padding-bottom: 50px;   background-image: url(https://i.ibb.co/WxgMCjJ/again-4.png); background-repeat: no-repeat; background-size: 100% 100%; background-position: center; background-color: #000;">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <tr>
+                                            <td align="center" valign="top" style="font-family: 'Roboto', sans-serif; font-size: 12px; font-weight: 400; color: #fff; line-height: 23px; padding-bottom: 10px;">
+                                            	Damn! the red and blue <br>
+                                            	who knows what they bound to do
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                        	<td align="center" valign="top">
+                                        		<a href="#" target="_blank">
+                                        			<img src="https://i.ibb.co/QJ2sGr7/text-2.png" width="120" style="max-width: 120px;" alt="">
+                                        		</a>
+                                        	</td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" valign="top" style="font-family: 'Roboto', sans-serif; font-size: 12px; font-weight: 400; color: #fff; line-height: 23px;">
+                                            	in his black hoody minding <br>
+                                            	his own black goddamn black business
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- block 3 -->
+
+                            <!-- block 4 -->
+                            <tr>
+                                <td align="left" valign="top" class="fluid px-20" style="padding-left: 50px; padding-right: 50px; padding-top: 80px;">
+                                    <table border="0" cellspacing="0" cellpadding="0">
+                                    	<!-- row -->
+                                        <tr>
+                                        	<td align="left" valign="top" style="padding-bottom: 50px;">
+                                        		<table border="0" cellspacing="0" cellpadding="0" class="fluid">
+                                        			<td align="left" valign="top" class="fluid-content pr-0" width="240" style="font-family: 'Roboto', sans-serif; font-size: 12px; font-weight: 400; color: #fff; line-height: 23px; padding-right: 10px;">
+		                                            	We know the story too well. Your interaction with the police during a car stop is often dictated by your skin color. White people are free to be themselves without fear. They can talk back to police officers, move their hands freely without consequence and refuse to comply with their orders. But for people who are black, the experience is very different. They can be as quiet, polite, and compliant as can be but still find themselves staring death right in the eyes. “RED AND BLUE” dramatically shows the different experiences of both ethnicities and why for some, escape is the only way to survive. With an old school hip-hop vibe like Public Enemy or the Wu
+		                                            </td>
+		                                            <td align="left" valign="top" class="fluid-content pt-20 pl-0" width="240" style="font-family: 'Roboto', sans-serif; font-size: 12px; font-weight: 400; color: #fff; line-height: 23px; padding-left: 10px;">
+		                                            	<table border="0" cellpadding="0" cellspacing="0" width="100%">
+		                                            		<tr>
+		                                            			<td align="left" valign="top" style="font-family: 'Roboto', sans-serif; font-size: 12px; font-weight: 400; color: #fff; line-height: 23px; padding-bottom: 20px;">
+		                                            				Tang Clan, the music of Attorneys with Swag tackles the same issues addressed by these infamous rap groups, but with a more knowledgeable and modern step-by-step approach to dealing with the law of today. We would really love for you to listen to our single and consider featuring us in one of your distinguished articles or blogs in the near future. The link to the “RED AND BLUE” music video and music track are both below. We look forward to hearing from you. Stay safe.
+		                                            			</td>
+		                                            		</tr>
+		                                            		<tr>
+		                                            			<td align="left" valign="top" style="font-family: 'Roboto', sans-serif; font-size: 12px; font-weight: 400; color: #fff; line-height: 23px;">
+		                                            				Much obliged,<br>
+		                                            				Attorneys with Swag
+		                                            			</td>
+		                                            		</tr>
+		                                            	</table>
+		                                            </td>
+                                        		</table>
+                                        	</td>
+                                        </tr>
+                                        <!-- row -->
+                                        <tr>
+                                        	<td align="left" valign="top" style="font-family: 'Roboto', sans-serif; font-size: 12px; font-weight: 400; color: #939598; line-height: 23px;text-transform: uppercase;">
+                                        	Video	
+                                        	</td>
+                                        </tr>
+                                        <tr>
+                                        	<td align="left" valign="top">
+                                        		<a href="#" target="_blank">
+                                        			<img src="https://i.ibb.co/dsNbRBd/half-1.png" border="0" width="500" style="max-width: 500px; vertical-align: middle; border: 0;" vspace="0" hspace="0" class="fluid" alt="">
+                                        		</a>
+                                        	</td>
+                                        </tr>
+                                        <tr>
+                                        	<td align="left" valign="top">
+                                        		<a href="#" target="_blank">
+                                        			<img src="https://i.ibb.co/PFcTB8C/haft-2.png" border="0" width="500" style="max-width: 500px; vertical-align: middle; border: 0;" vspace="0" hspace="0" class="fluid" alt="">
+                                        		</a>
+                                        	</td>
+                                        </tr>
+                                        <tr>
+                                        	<td align="right" valign="top" style="font-family: 'Roboto', sans-serif; font-size: 12px; font-weight: 400; color: #939598; line-height: 23px;text-transform: uppercase; padding-bottom: 50px;">
+                                        	Song	
+                                        	</td>
+                                        </tr>
+                                        <tr>
+                                        	<td align="center" valign="top" style="padding-bottom: 15px;">
+                                        		<a href="https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:13a92ec5-170a-479a-bf24-5a353d1c19e7" target="_blank">
+                                        			<img src="https://i.ibb.co/0X52JDB/bottom-2.png" width="100" style="max-width: 100px;" alt="">
+                                        		</a>
+                                        	</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- block 4 -->
+
+                            <!-- block 5 -->
+                            <tr>
+                                <td align="left" valign="top" class="fluid px-20" style="padding-left: 50px; padding-right: 50px;">
+                                    <table border="0" cellspacing="0" cellpadding="0" class="fluid" width="500">
+                                        <tr>
+                                            <td align="center" valign="top" style="font-family: 'Roboto', sans-serif; border-bottom: 1px dotted #808080; padding-bottom: 20px;">
+                                            	<table border="0" cellspacing="0" cellpadding="0" class="fluid">
+                                            		<tr>
+                                            			<td align="center" valign="middle" width="40">
+                                            				<a href="https://twitter.com/AttorneysWSwag" target="_blank">
+                                            					<img src="https://i.ibb.co/TvCRZQP/Social-Media-Twitter.png" width="20" class="w-15" alt="">
+                                            				</a>
+                                            			</td>
+                                            			<td align="center" valign="middle" width="40">
+                                            				<a href="https://www.instagram.com/attorneyswithswag/" target="_blank">
+                                            					<img src="https://i.ibb.co/G7YGJ0V/Social-Media-IG.png" width="18" class="w-15" alt="">
+                                            				</a>
+                                            			</td>
+                                            			<td align="center" valign="middle" width="40">
+                                            				<a href="https://www.facebook.com/attorneyswithswag" target="_blank">
+                                            					<img src="https://i.ibb.co/fMpwF74/Social-Media-Facebook.png" width="12" class="w-10" alt="">
+                                            				</a>
+                                            			</td>
+                                            			<td align="center" valign="middle" width="60">
+                                            				<a href="https://primis.attorneyswithswag.com/redandblue" target="_blank">
+                                            					<img src="https://i.ibb.co/vsksLFp/Social-Media-Tidal.png" width="45" class="w-35" alt="">
+                                            				</a>
+                                            			</td>
+                                            			<td align="center" valign="middle" width="90">
+                                            				<a href="https://primis.attorneyswithswag.com/redandblue" target="_blank">
+                                            					<img src="https://i.ibb.co/Hq7JCgQ/Social-Media-Spotify.png" width="70" class="w-50" alt="">
+                                            				</a>
+                                            			</td>
+                                            			<td align="center" valign="middle" width="80">
+                                            				<a href="https://primis.attorneyswithswag.com/redandblue" target="_blank">
+                                            					<img src="https://i.ibb.co/tJzbjQd/Social-Media-Music.png" width="60" class="w-45" alt="">
+                                            				</a>
+                                            			</td>
+                                            			<td align="center" valign="middle" width="90">
+                                            				<a href="https://www.youtube.com/AttorneysWithSwagTV" target="_blank">
+                                            					<img src="https://i.ibb.co/G5L0qVL/Social-Media-You-Tube.png" width="70" class="w-50" alt="">
+                                            				</a>
+                                            			</td>
+                                            		</tr>
+                                            	</table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- block 5 -->
+
+                            <!-- block 6 -->
+                            <tr>
+                                <td align="left" valign="top" class="fluid px-20" style="padding-left: 70px; padding-right: 70px; padding-top: 20px; padding-bottom: 80px;">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <tr>
+                                            <td align="left" valign="top" class="fluid-content" style="font-family: 'Roboto', sans-serif;">
+                                            	<table border="0" cellspacing="0" cellpadding="0" class="fluid">
+                                            		<tr>
+                                            			<td align="center" width="50%" valign="middle" style="padding-right: 20px;">
+                                            				<a href="https://www.attorneyswithswag.com/" target="_blank">
+                                            					<img src="https://i.ibb.co/nwshvVr/bottom-logo.png" width="50" alt="">
+                                            				</a>
+                                            			</td>
+                                            			<td align="left" width="50%" valign="top" class="center" style="font-family: 'Roboto', sans-serif; font-size: 9px; font-weight: 400; color: #fff; line-height: 23px;">
+                                            				<table border="0" cellpadding="0" cellspacing="0">
+                                            					<tr>
+                                            						<td align="left" valign="top" style="font-family: 'Roboto', sans-serif; font-size: 9px; font-weight: 500; color: #fff; line-height: 100%; padding-bottom: 5px;">EUGENE TOUSSAINT</td>
+                                            					</tr>
+                                            					<tr>
+                                            						<td style="font-family: 'Roboto', sans-serif; font-size: 9px; font-weight: 300; color: #fff; line-height: 15px;">
+                                            							Eugene Toussaint CEO <br>
+                                            							Attorneys with Swag
+                                            						</td>
+                                            					</tr>
+                                            				</table>
+                                            			</td>
+                                            		</tr>
+                                            	</table>
+                                            </td>
+                                            <td align="left" valign="top" class="fluid-content pt-20" style="font-family: 'Roboto', sans-serif;">
+                                            	<table border="0" cellspacing="0" cellpadding="0" class="fluid">
+                                            		<tr>
+                                            			<td align="left" width="50%" valign="top" class="center" style="font-family: 'Roboto', sans-serif; font-size: 12px; font-weight: 400; color: #fff; line-height: 23px; padding-left: 12px;">
+                                            				<table border="0" cellspacing="0" cellpadding="0">
+                                            					<tr>
+                                            						<td style="font-family: 'Roboto', sans-serif; font-size: 9px; font-weight: 300; color: #fff; line-height: 100%; padding-bottom: 5px;">
+                                            							<a href="tel:(347)772-8324" target="_blank" style="text-decoration:  none; color: #fff">
+                                            								(347) 772-8324
+                                            							</a>
+                                            						</td>
+                                            					</tr>
+                                            					<tr>
+                                            						<td style="font-family: 'Roboto', sans-serif; font-size: 9px; font-weight: 300; color: #fff; line-height: 15px;">
+                                            							<a href="mailto:attorneyswithswag@gmail.com" target="_blank" style="text-decoration:  none; color: #fff">
+                                            								attorneyswithswag@gmail.com
+                                            							</a>
+                                            						</td>
+                                            					</tr>
+                                            					<tr>
+                                            						<td style="font-family: 'Roboto', sans-serif; font-size: 9px; font-weight: 300; color: #fff; line-height: 15px;">
+                                            							<a href="https://www.attorneyswithswag.com/" target="_blank" style="text-decoration:  none; color: #fff">
+                                            								attorneyswithswag.com
+                                            							</a>
+                                            						</td>
+                                            					</tr>
+                                            				</table>
+                                            			</td>
+                                            			<td align="left" width="50%" valign="top" class="center" style="font-family: 'Roboto', sans-serif; font-size: 12px; font-weight: 400; color: #fff; line-height: 23px; padding-left: 12px;">
+                                            				<table border="0" cellspacing="0" cellpadding="0">
+                                            					<tr>
+                                            						<td style="font-family: 'Roboto', sans-serif; font-size: 9px; font-weight: 300; color: #fff; line-height: 15px; padding-bottom: 5px; font-style: italic;">
+                                            							44 E 1ST ST. APT 8 <br>
+                                            							New York, NY 10003
+                                            						</td>
+                                            					</tr>
+                                            				</table>
+                                            			</td>
+                                            		</tr>
+                                            	</table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- block 6 -->
+
+
+
+                            <!-- TYPOGRAPHY HERE
+                            <tr>
+                                <td align="left" valign="top" class="fluid" style="padding-left: 20px; padding-right: 20px;">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <tr>
+                                            <td align="left" valign="top" style="font-family: 'Roboto', sans-serif;"></td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                             -->
+
+                        </table>
+                        <!-- // END TEMPLATE -->
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>
