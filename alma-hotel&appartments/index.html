@@ -1,0 +1,827 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8">
+        <meta name="x-apple-disable-message-reformatting">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>*|MC:SUBJECT|*</title>
+        <style type="text/css">
+            @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+            @media only screen and (max-width: 480px){
+                /* ===== TYPOGRAPHY ======== */
+                #bodyCell{padding: 0 !important;}
+                #templateContainer{width: 100% !important;}
+                .fluid{width: 100% !important; max-width: 100% !important;}
+                .fluid-content{display: block !important; width: 100% !important;}
+                /*display*/
+                .none{display: none !important;}
+                .block{display: block !important;}
+                /*wdith*/
+                .w-25{width: 25px !important;}
+                .w-50{width: 50px !important;}
+                .w-75{width: 75px !important;}
+                .w-100{width: 100px !important;}
+                .w-125{width: 125px !important;}
+                .w-150{width: 150px !important;}
+                .w-175{width: 175px !important;}
+                .w-200{width: 200px !important;}
+                .w-225{width: 225px !important;}
+                .w-250{width: 250px !important;}
+                .w-275{width: 275px !important;}
+                .w-300{width: 300px !important;}
+                /*padding*/
+                .p-0{padding: 0 !important;}
+                .pt-0{padding-top: 0 !important;}
+                .pb-0{padding-bottom: 0 !important;}
+                .pr-0{padding-right: 0 !important;}
+                .pl-0{padding-left: 0 !important;}
+
+                .p-10{padding: 10px !important;}
+                .pt-10{padding-top: 10px !important;}
+                .pb-10{padding-bottom: 10px !important;}
+                .pr-10{padding-right: 10px !important;}
+                .pl-10{padding-left: 10px !important;}
+
+                .p-15{padding: 15px !important;}
+                .pt-15{padding-top: 15px !important;}
+                .pb-15{padding-bottom: 15px !important;}
+                .pr-15{padding-right: 15px !important;}
+                .pl-15{padding-left: 15px !important;}
+
+                .p-20{padding: 20px !important;}
+                .pt-20{padding-top: 20px !important;}
+                .pb-20{padding-bottom: 20px !important;}
+                .pr-20{padding-right: 20px !important;}
+                .pl-20{padding-left: 20px !important;}
+
+                .p-25{padding: 25px !important;}
+                .pt-25{padding-top: 25px !important;}
+                .pb-25{padding-bottom: 25px !important;}
+                .pr-25{padding-right: 25px !important;}
+                .pl-25{padding-left: 25px !important;}
+
+                .p-30{padding: 30px !important;}
+                .pt-30{padding-top: 30px !important;}
+                .pb-30{padding-bottom: 30px !important;}
+                .pr-30{padding-right: 30px !important;}
+                .pl-30{padding-left: 30px !important;}
+
+                .p-35{padding: 35px !important;}
+                .pt-35{padding-top: 35px !important;}
+                .pb-35{padding-bottom: 35px !important;}
+                .pr-35{padding-right: 35px !important;}
+                .pl-35{padding-left: 35px !important;}
+
+                .p-40{padding: 40px !important;}
+                .pt-40{padding-top: 40px !important;}
+                .pb-40{padding-bottom: 40px !important;}
+                .pr-40{padding-right: 40px !important;}
+                .pl-40{padding-left: 40px !important;}
+
+                .p-45{padding: 45px !important;}
+                .pt-45{padding-top: 45px !important;}
+                .pb-45{padding-bottom: 45px !important;}
+                .pr-45{padding-right: 45px !important;}
+                .pl-45{padding-left: 45px !important;}
+
+                .p-50{padding: 50px !important;}
+                .pt-50{padding-top: 50px !important;}
+                .pb-50{padding-bottom: 50px !important;}
+                .pr-50{padding-right: 50px !important;}
+                .pl-50{padding-left: 50px !important;}
+
+                .px-0{padding-left: 0px !important; padding-right: 0px !important;}
+                .py-0{padding-top: 0px !important; padding-bottom: 0px !important;}
+
+                .px-10{padding-left: 10px !important; padding-right: 10px !important;}
+                .py-10{padding-top: 10px !important; padding-bottom: 10px !important;}
+
+                .px-15{padding-left: 15px !important; padding-right: 15px !important;}
+                .py-15{padding-top: 15px !important; padding-bottom: 15px !important;}
+
+                .px-20{padding-left: 20px !important; padding-right: 20px !important;}
+                .py-20{padding-top: 20px !important; padding-bottom: 20px !important;}
+
+                .px-25{padding-left: 25px !important; padding-right: 25px !important;}
+                .py-25{padding-top: 25px !important; padding-bottom: 25px !important;}
+
+                .px-30{padding-left: 30px !important; padding-right: 30px !important;}
+                .py-30{padding-top: 30px !important; padding-bottom: 30px !important;}
+
+                .px-35{padding-left: 35px !important; padding-right: 35px !important;}
+                .py-35{padding-top: 35px !important; padding-bottom: 35px !important;}
+
+                .px-40{padding-left: 40px !important; padding-right: 40px !important;}
+                .py-40{padding-top: 40px !important; padding-bottom: 40px !important;}
+
+                .px-45{padding-left: 45px !important; padding-right: 45px !important;}
+                .py-45{padding-top: 45px !important; padding-bottom: 45px !important;}
+
+                .px-50{padding-left: 50px !important; padding-right: 50px !important;}
+                .py-50{padding-top: 50px !important; padding-bottom: 50px !important;}
+
+                /*text center*/
+                .center{text-align: center !important;}
+                .left{text-align: left !important;}
+                .right{text-align: right !important;}
+                .valign-middle{vertical-align: middle !important;}
+                .valign-top{vertical-align: top !important;}
+                .valign-bottom{vertical-align: bottom !important;}
+
+                /*font-size*/
+                .f-8{font-size: 8px !important;}
+                .f-9{font-size: 9px !important;}
+                .f-10{font-size: 10px !important;}
+                .f-11{font-size: 11px !important;}
+                .f-12{font-size: 12px !important;}
+                .f-13{font-size: 13px !important;}
+                .f-14{font-size: 14px !important;}
+                .f-15{font-size: 15px !important;}
+                .f-16{font-size: 16px !important;}
+                .f-17{font-size: 17px !important;}
+                .f-18{font-size: 18px !important;}
+                .f-19{font-size: 19px !important;}
+                .f-20{font-size: 20px !important;}
+                .f-21{font-size: 21px !important;}
+                .f-22{font-size: 22px !important;}
+                .f-23{font-size: 23px !important;}
+                .f-24{font-size: 24px !important;}
+                .f-25{font-size: 25px !important;}
+                .f-26{font-size: 26px !important;}
+                .f-27{font-size: 27px !important;}
+                .f-28{font-size: 28px !important;}
+                .f-29{font-size: 29px !important;}
+                .f-30{font-size: 30px !important;}
+                .f-32{font-size: 32px !important;}
+                .f-34{font-size: 34px !important;}
+                .f-36{font-size: 36px !important;}
+                .f-38{font-size: 38px !important;}
+                .f-40{font-size: 40px !important;}
+                .f-42{font-size: 42px !important;}
+                .f-44{font-size: 44px !important;}
+                .f-46{font-size: 46px !important;}
+                .f-48{font-size: 48px !important;}
+                .f-50{font-size: 50px !important;}
+
+                /*fontwight*/
+                .bold{font-weight: 700 !important;}
+                .medium{font-weight: 500 !important;}
+                .semi-bold{font-weight: 600 !important;}
+                .black{font-weight: 900 !important;}
+                /* ===== TYPOGRAPHY ======== */
+            }
+        </style>
+    </head>
+    <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0" bgcolor="#f1efef" style="font-family: 'Open Sans', sans-serif; padding: 0; margin: 0;"  yahoo="fix">
+        <center>
+            <table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable" style="background-color: #f1efef;">
+                <tr>
+                    <td align="center" valign="top" id="bodyCell" style="padding-top: 20px; padding-bottom: 20px;">
+                        <!-- BEGIN TEMPLATE // -->
+                        <table border="0" cellpadding="0" cellspacing="0" width="600" id="templateContainer" style="background-color: #fff; ">
+                            <!-- PREHEADER PART -->
+                            <tr>
+                                <td align="center" valign="top" style="background-image: linear-gradient(to right,#102D6C,#3A6094); padding-top: 10px; padding-bottom: 10px; padding-left: 20px; padding-right: 20px;" bgcolor="#102D6C">
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateHeader">
+                                        <tr>
+                                            <td valign="middle" align="left" class="headerContent fluid-content center pb-15">
+                                               <a href="https://www.hotel-alma-alghero.it/en/home/" target="_blank">
+                                                   <img src="https://i.ibb.co/jfch6D3/logo.png" width="150" class="w-100" style="max-width: 150px; vertical-align: middle;" alt="">
+                                               </a>
+                                            </td>
+                                            <td align="right" valign="middle" class="fluid-content center">
+                                                <table border="0" cellspacing="0" cellpadding="0" class="fluid center">
+                                                    <tr>
+                                                        <td align="left" valign="top" style="padding-right: 15px;">
+                                                            <a href="https://www.hotel-alma-alghero.it/it/home/" target="_blank" style="font-family: 'Open Sans', sans-serif; font-weight: normal; font-size: 13px; color: #fff; text-decoration: none;">Home</a>
+                                                        </td>
+                                                        <td align="left" valign="top" style="padding-right: 15px;">
+                                                            <a href="https://www.hotel-alma-alghero.it/it/rooms/" target="_blank" style="font-family: 'Open Sans', sans-serif; font-weight: normal; font-size: 13px; color: #fff; text-decoration: none;">Rooms</a>
+                                                        </td>
+                                                        <td align="left" valign="top" style="padding-right: 15px;">
+                                                            <a href="https://www.hotel-alma-alghero.it/it/servizi-bike-hotel-alghero/" target="_blank" style="font-family: 'Open Sans', sans-serif; font-weight: normal; font-size: 13px; color: #fff; text-decoration: none;">Services</a>
+                                                        </td>
+                                                        <td align="left" valign="top">
+                                                            <a href="https://www.hotel-alma-alghero.it/it/richiedi-un-preventivo/" target="_blank" style="font-family: 'Open Sans', sans-serif; font-weight: normal; font-size: 13px; color: #fff; text-decoration: none;">Request a quotation</a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- PREHEADER PART FINISH-->
+
+                            <!-- block 1 -->
+                            <tr>
+                                <td align="center" valign="middle" class="fluid" height="300" background="https://i.ibb.co/XjLwckg/bg.png" bgcolor="#1F407B" style="background-image: url('https://i.ibb.co/XjLwckg/bg.png');background-repeat: no-repeat;background-size: cover; background-position: center;">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <tr>
+                                            <td align="center" valign="middle" class="f-22" style="font-family: 'Open Sans', sans-serif; font-weight: 700; font-size: 28px; color: #fff;">
+                                                The blue zone is now white
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" class="f-12" valign="middle" style="font-family: 'Open Sans', sans-serif; font-weight: normal; font-size: 16px; color: #fff; font-style: italic; padding-top: 15px;">
+                                                "Sardinia, The Lucky Island (Almost) Free From Covid-19" <br>
+                                                Forbes.com, Feb.28 2021
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" valign="top" style="padding-top: 20px;">
+                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                        <td align="center" valign="middle" width="150" height="40" style="background-color: #EEAC2A; border-radius: 3px;">
+                                                            <a href="https://www.hotel-alma-alghero.it/en/home/" target="_blank" style="text-decoration: none; color: #fff; font-weight: bold; font-size: 14px;">Book Now</a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- block 1 -->
+
+                            <!-- block 2 -->
+                            <tr>
+                                <td align="left" valign="top" class="fluid" style="padding-left: 20px; padding-right: 20px; padding-top: 40px; padding-bottom: 40px;">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <tr>
+                                            <td align="left" valign="top" width="260" class="fluid-content pr-0" style="padding-right: 20px;">
+                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                        <td align="center" valign="top" class="f-20" style="font-family: 'Open Sans', sans-serif; font-weight: bold; font-size: 25px; color: #222222;">
+                                                            50 years of tradion
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="center" valign="top" style="font-family: 'Open Sans', sans-serif; font-weight: normal; font-size: 12px; color: #222222;padding-top: 10px; padding-bottom: 10px;">
+                                                            La Lepanto Restaurant
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left" valign="top" style="font-family: 'Open Sans', sans-serif; font-weight: normal; font-size: 12px; color: #222222; line-height: 20px; padding-bottom: 20px;">
+                                                         The charming Alghero Restaurant is ready to welcome you with fresh seafood, enchanting seaview and its traditional <strong>catalana lobster.</strong>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left" valign="top" style="font-family: 'Open Sans', sans-serif; font-weight: normal; font-size: 12px; color: #222222; line-height: 20px; padding-bottom: 20px;">
+                                                         Established in 1970, has been recognised by TripAdvisor with the <strong>Traveler's choice award in 2020</strong>, as the best restaurant in Alghero.
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left" valign="top">
+                                                            <table border="0" cellspacing="0" cellpadding="0">
+                                                                <tr>
+                                                                    <td align="center" valign="middle" width="150" height="40" style="border: 1px solid #EEAC2A; border-radius: 3px;">
+                                                                        <a href="https://www.hotel-alma-alghero.it/it/offerte/prenota-dal-sito-ufficiale/" target="_blank" style="text-decoration: none; color: #EEAC2A; font-weight: bold; font-size: 14px;">Romantic dinner</a>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                            <td align="left" valign="top" class="fluid-content pt-20">
+                                                <img src="https://i.ibb.co/FJSqGrx/la-vasca-delle-aragoste.png" width="280" class="fluid" style="max-width: 280px; vertical-align: middle; border: 0;" border="0" alt="">
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- block 2 -->
+
+                            <!-- block 3 -->
+                            <tr>
+                                <td align="left" valign="top" class="fluid" style="padding-left: 20px; padding-right: 20px;">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <tr>
+                                            <td align="center" valign="top" class="f-25" style="font-family: 'Open Sans', sans-serif; font-weight: bold; font-size: 35px; color: #222222;">
+                                                Our rooms
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" valign="top" class="f-12" style="font-family: 'Open Sans', sans-serif; font-weight: normal; font-size: 16px; color: #222222; padding-bottom: 40px;">
+                                               Passion for hospitality, just a step from the sea
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left" valign="top">
+                                                <table border="0" cellspacing="0" cellpadding="0" class="fluid">
+                                                    <tr>
+                                                        <!-- column  -->
+                                                        <td align="left" valign="top" width="270" class="fluid-content pr-0" style="padding-right: 10px; padding-bottom: 40px;">
+                                                            <table border="0" cellspacing="0" cellpadding="0" class="fluid">
+                                                                <tr>
+                                                                    <td align="left" valign="top">
+                                                                        <a href="https://cdn.animaapp.com/projects/60507b15f33459074ca5b66f/releases/60509f5ea9df2d2c90d269d4/img/superior@1x.png" target="_blank">
+                                                                          <img src="https://i.ibb.co/gv8xtGm/post-01.png" width="270" class="fluid" style="max-width: 270px; vertical-align: middle;" alt="">  
+                                                                        </a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="center" valign="top" style="font-family: 'Open Sans', sans-serif; font-weight: 600; font-size: 12px; color: #222222; line-height: 20px; padding-top: 10px; border: 1px solid #EAEAEA; padding-bottom: 10px;">
+                                                                     Superior Room
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                        <!-- column  -->
+                                                        <td align="left" valign="top" width="270" class="fluid-content pt-20 pl-0" style="padding-left: 10px; padding-bottom: 40px;">
+                                                            <table border="0" cellspacing="0" cellpadding="0" class="fluid">
+                                                                <tr>
+                                                                    <td align="left" valign="top">
+                                                                        <a href="https://cdn.animaapp.com/projects/60507b15f33459074ca5b66f/releases/60509f5ea9df2d2c90d269d4/img/comfort@1x.png" target="_blank">
+                                                                          <img src="https://i.ibb.co/wrBB117/post-02.png" width="270" class="fluid" style="max-width: 270px; vertical-align: middle;" alt="">  
+                                                                        </a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="center" valign="top" style="font-family: 'Open Sans', sans-serif; font-weight: 600; font-size: 12px; color: #222222; line-height: 20px; padding-top: 10px; border: 1px solid #EAEAEA; padding-bottom: 10px;">
+                                                                     Comfort Room
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <!-- column  -->
+                                                        <td align="left" valign="top" width="270" class="fluid-content pt-20 pr-0" style="padding-right: 10px; padding-bottom: 40px;">
+                                                            <table border="0" cellspacing="0" cellpadding="0" class="fluid">
+                                                                <tr>
+                                                                    <td align="left" valign="top">
+                                                                        <img src="https://i.ibb.co/9txPHST/post-03.png" width="270" class="fluid" style="max-width: 270px; vertical-align: middle;" alt="">
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="center" valign="top" style="font-family: 'Open Sans', sans-serif; font-weight: 600; font-size: 12px; color: #222222; line-height: 20px; padding-top: 10px; border: 1px solid #EAEAEA; padding-bottom: 10px;">
+                                                                     Deluxe Room
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                        <!-- column  -->
+                                                        <td align="left" valign="top" width="270" class="fluid-content pl-0" style="padding-left: 10px; padding-bottom: 40px;">
+                                                            <table border="0" cellspacing="0" cellpadding="0" class="fluid">
+                                                                <tr>
+                                                                    <td align="left" valign="top">
+                                                                        <a href="https://cdn.animaapp.com/projects/60507b15f33459074ca5b66f/releases/60509f5ea9df2d2c90d269d4/img/family@1x.png" target="_blank">
+                                                                         <img src="https://i.ibb.co/j9KfbWV/post-04.png" width="270" class="fluid" style="max-width: 270px; vertical-align: middle;" alt="">   
+                                                                        </a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="center" valign="top" style="font-family: 'Open Sans', sans-serif; font-weight: 600; font-size: 12px; color: #222222; line-height: 20px; padding-top: 10px; border: 1px solid #EAEAEA; padding-bottom: 10px;">
+                                                                     Family Room
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- block 3 -->
+
+                            <!-- button -->
+                            <tr>
+                                <td align="left" valign="top" class="fluid" style="padding-left: 20px; padding-right: 20px; padding-bottom: 40px;">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <tr>
+                                            <td align="center" valign="top">
+                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                        <td align="center" valign="middle" width="150" height="40" style="border: 1px solid #EEAC2A; border-radius: 3px;">
+                                                            <a href="https://www.hotel-alma-alghero.it/it/camere/" target="_blank" style="text-decoration: none; color: #EEAC2A; font-weight: bold; font-size: 14px;">View More</a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- button -->
+
+                            <!-- block 4 -->
+                            <tr>
+                                <td align="left" valign="top" class="fluid" style="padding-left: 20px; padding-right: 20px; padding-bottom: 40px;">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <tr>
+                                            <td align="center" valign="top" class="f-20" style="font-family: 'Open Sans', sans-serif; font-weight: bold; font-size: 25px; color: #222222;">
+                                                Our Services
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" valign="top" style="font-family: 'Open Sans', sans-serif; font-weight: normal; font-size: 12px; color: #222222; padding-bottom: 40px;">
+                                               Your unforgettable moments in Alghero
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left" valign="top">
+                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                        <td align="left" valign="middle" width="250" class="fluid-content pr-0" style="padding-right: 10px;">
+                                                            <a href="https://cdn.animaapp.com/projects/60507b15f33459074ca5b66f/releases/60509f5ea9df2d2c90d269d4/img/18f0d63d-104d-4b9c-9eb5-1b204bdde4e3-1585408724@1x.png" target="_blank">
+                                                               <img src="https://i.ibb.co/X4VCpXR/float-left.png" width="250" class="fluid" style="max-width: 250px; vertical-align: middle;" alt=""> 
+                                                            </a>
+                                                        </td>
+                                                        <td align="left" valign="top" width="290" class="fluid-content pt-20 pl-0" style="padding-left: 10px;">
+                                                            <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                                <!-- row -->
+                                                                <tr>
+                                                                    <td align="left" valign="top" style="padding-bottom: 15px;">
+                                                                        <a href="https://www.hotel-alma-alghero.it/it/servizi-bike-hotel-alghero/servizio-piscina-tramonto-di-alghero-capocaccia/" target="_blank" style="text-decoration: none;">
+                                                                          <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                                            <tr>
+                                                                                <td align="left" valign="top" style="padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px;border: 1px solid #D8D8D8;">
+                                                                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                                                        <tr>
+                                                                                            <td align="left" valign="top" style="font-family: 'Open Sans', sans-serif; font-weight: 600; font-size: 12px; color: #222222; padding-bottom:10px;">
+                                                                                               Roof Swimming Pool with bar service
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                       <tr>
+                                                                                            <td align="left" valign="top" style="font-family: 'Open Sans', sans-serif; font-weight: normal; font-size: 10px; color: #222222; line-height: 15px;">
+                                                                                               Watching the sunset while sharing a glass of wine  with your loved ones, what's better?
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </table>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>  
+                                                                        </a>
+                                                                    </td>
+                                                                </tr>
+                                                                <!-- row -->
+                                                                <tr>
+                                                                    <td align="left" valign="top" style="padding-bottom: 15px;">
+                                                                        <a href="https://www.hotel-alma-alghero.it/it/servizi-bike-hotel-alghero/" target="_blank" style="text-decoration: none;">
+                                                                           <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                                            <tr>
+                                                                                <td align="left" valign="top" style="padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px;border: 1px solid #D8D8D8;">
+                                                                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                                                        <tr>
+                                                                                            <td align="left" valign="top" style="font-family: 'Open Sans', sans-serif; font-weight: 600; font-size: 12px; color: #222222; padding-bottom:10px;">
+                                                                                               Car and scooter rental
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                       <tr>
+                                                                                            <td align="left" valign="top" style="font-family: 'Open Sans', sans-serif; font-weight: normal; font-size: 10px; color: #222222; line-height: 15px;">
+                                                                                               Discover the historical Alghero city center in complete freedom
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </table>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table> 
+                                                                        </a>
+                                                                    </td>
+                                                                </tr>
+                                                                <!-- row -->
+                                                                <tr>
+                                                                    <td align="left" valign="top" style="padding-bottom: 15px;">
+                                                                        <a href="https://www.hotel-alma-alghero.it/it/alma-experience-1/escursioni-in-catamarano-a-vela/" target="_blank" style="text-decoration: none;">
+                                                                          <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                                            <tr>
+                                                                                <td align="left" valign="top" style="padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px;border: 1px solid #D8D8D8;">
+                                                                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                                                        <tr>
+                                                                                            <td align="left" valign="top" style="font-family: 'Open Sans', sans-serif; font-weight: 600; font-size: 12px; color: #222222; padding-bottom:10px;">
+                                                                                               Sailing catamaran excursions
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                       <tr>
+                                                                                            <td align="left" valign="top" style="font-family: 'Open Sans', sans-serif; font-weight: normal; font-size: 10px; color: #222222; line-height: 15px;">
+                                                                                               One full day in the park of Asinara, surrounded by nature and crystal clear sea water. Starting from 75,00€
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </table>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>  
+                                                                        </a>
+                                                                        
+                                                                    </td>
+                                                                </tr>
+                                                               
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- block 4 -->
+
+                            <!-- block 5 -->
+                            <tr>
+                                <td align="left" valign="top" class="fluid" style="padding-bottom: 40px;">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <tr>
+                                            <td align="left" valign="top" style="font-family: 'Open Sans', sans-serif;">
+                                                <a href="https://cdn.animaapp.com/projects/60507b15f33459074ca5b66f/releases/60507b29c2ec7cfd511e7d09/img/play-button@1x.png" target="_blank">
+                                                    <img src="https://i.ibb.co/1MPSr2w/sec-6.png" width="600" class="fluid" style="max-width: 600px; vertical-align: middle;" alt="">
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- block 5 -->
+
+                            <!-- block 6 -->
+                            <tr>
+                                <td align="left" valign="top" class="fluid" style="padding-left: 20px; padding-right: 20px; padding-bottom: 40px;">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <tr>
+                                            <td align="center" valign="top" class="f-20" style="font-family: 'Open Sans', sans-serif; font-weight: bold; font-size: 25px; color: #222222;">
+                                                Alma di Alghero, tailored hospitality
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" valign="top" class="f-12" style="font-family: 'Open Sans', sans-serif; font-weight: normal; font-size: 16px; color: #222222; padding-bottom: 40px;">
+                                               Sandy beaches, crystal water, nature, and much more..
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left" valign="top">
+                                                <table border="0" cellspacing="0" cellpadding="0" class="fluid">
+                                                    <tr>
+                                                        <!-- column -->
+                                                        <td align="left" valign="top" width="250" class="fluid-content pr-0" style="padding-right: 10px;">
+                                                            <a href="https://cdn.animaapp.com/projects/60507b15f33459074ca5b66f/releases/60509f5ea9df2d2c90d269d4/img/file-fb79c5cc-5904-497f-b1ac-2bc122e929e8--png@1x.png" target="_blank">
+                                                                <img src="https://i.ibb.co/tbYFT73/1.png" width="250" class="fluid" height="220" style="max-width: 250px; vertical-align: middle;" alt="">
+                                                            </a>
+                                                        </td>
+                                                        <td align="left" valign="top" width="290" class="fluid-content pt-20 pl-0" style="padding-left: 10px;">
+                                                            <table border="0" cellspacing="0" cellpadding="0" class="fluid">
+                                                                <tr>
+                                                                    <td align="left" valign="top">
+                                                                        <a href="https://cdn.animaapp.com/projects/60507b15f33459074ca5b66f/releases/60509f5ea9df2d2c90d269d4/img/29-11-18-04-25-19-zdc5f8e4fbe74fe6ced6e1327141a69e@1x.png" target="_blank">
+                                                                            <img src="https://i.ibb.co/xMmN3ZV/2.png" width="290" class="fluid" style="max-width: 290px; vertical-align: middle;" alt="">
+                                                                        </a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left" valign="top" style="padding-top: 10px;">
+                                                                        <table border="0" cellpadding="0" cellspacing="0" class="fluid">
+                                                                            <tr>
+                                                                                <td align="left" valign="top" style="padding-right: 10px;">
+                                                                                    <a href="https://cdn.animaapp.com/projects/60507b15f33459074ca5b66f/releases/60509f5ea9df2d2c90d269d4/img/natural@1x.png" target="_blank">
+                                                                                       <img src="https://i.ibb.co/MnhRGVW/3.png" width="140" class="w-150" alt=""> 
+                                                                                    </a>
+                                                                                </td>
+                                                                                <td align="left" class="right" valign="top">
+                                                                                    <a href="https://cdn.animaapp.com/projects/60507b15f33459074ca5b66f/releases/60509f5ea9df2d2c90d269d4/img/nature@1x.png" target="_blank">
+                                                                                        <img src="https://i.ibb.co/3TF6j6s/4.png" width="140" class="w-150" alt="">
+                                                                                    </a>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- block 6 -->
+
+                            <!-- block 7 -->
+                            <tr>
+                                <td align="left" valign="top" class="fluid" style="padding-left: 20px; padding-right: 20px; padding-bottom: 40px;">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <tr>
+                                            <td align="center" valign="top" class="f-20" style="font-family: 'Open Sans', sans-serif; font-weight: bold; font-size: 25px; color: #222222;">
+                                                Our Feedbacks
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" valign="top" style="font-family: 'Open Sans', sans-serif; font-weight: normal; font-size: 12px; color: #222222; padding-bottom: 40px;">
+                                               What our guests say about us
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left" valign="top">
+                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                        <!-- column -->
+                                                        <td align="left" valign="top" width="270" class="fluid-content pr-0" style="padding-right: 10px;">
+                                                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                                <tr>
+                                                                    <td align="left" valign="top" background="https://i.ibb.co/S3Jj5N1/review-background.png" style="padding-left: 15px; padding-right: 15px; padding-bottom: 25px; padding-top: 25px; background-image: url('https://i.ibb.co/S3Jj5N1/review-background.png'); background-position: center; background-size: 100% 100%;">
+                                                                        <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                                            <tr>
+                                                                                <td align="center" valign="top" style="font-family: 'Open Sans', sans-serif; font-weight: bold; font-size: 14px; color: #222222; padding-bottom: 10px;">
+                                                                                   Amazing views
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td align="center" valign="top" style="font-family: 'Open Sans', sans-serif; font-weight: normal; font-size: 12px; color: #222222; padding-bottom: 10px; line-height: 20px;">
+                                                                                   "My husband & myself recently stayed at this hotel for 2 weeks, we were very much needing 2 weeks of rest & relaxation and wow this hotel delivered. I could find no fault."
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="center" valign="top" style="padding-top: 20px;">
+                                                                        <img src="https://i.ibb.co/GsqK2by/review-1.png" alt="">
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="center" valign="top" style="font-family: 'Open Sans', sans-serif; font-weight: normal; font-size: 12px; color: #222222; padding-top: 10px; line-height: 20px;">
+                                                                       jimmy186518
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                        <!-- column -->
+                                                        <td align="left" valign="top" width="270" class="fluid-content pt-20 pl-0" style="padding-left: 10px;">
+                                                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                                <tr>
+                                                                    <td align="left" valign="top" background="https://i.ibb.co/S3Jj5N1/review-background.png" style="padding-left: 15px; padding-right: 15px; padding-bottom: 25px; padding-top: 25px; background-image: url('https://i.ibb.co/S3Jj5N1/review-background.png'); background-position: center; background-size: 100% 100%;">
+                                                                        <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                                            <tr>
+                                                                                <td align="center" valign="top" style="font-family: 'Open Sans', sans-serif; font-weight: bold; font-size: 14px; color: #222222; padding-bottom: 10px;">
+                                                                                   Highly recommended
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td align="center" valign="top" style="font-family: 'Open Sans', sans-serif; font-weight: normal; font-size: 12px; color: #222222; padding-bottom: 10px; line-height: 20px;">
+                                                                                   "Very friendly staff, the room is clean and very reasonable price. It's a nice walking distance to the old Town and there are also may good restaurants less than 10 minutes walk."
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="center" valign="top" style="padding-top: 20px;">
+                                                                        <img src="https://i.ibb.co/9swKBQ5/review-2.png" alt="">
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="center" valign="top" style="font-family: 'Open Sans', sans-serif; font-weight: normal; font-size: 12px; color: #222222; padding-top: 10px; line-height: 20px;">
+                                                                       Natasha
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- block 7 -->
+
+                            <!-- block 8 -->
+                            <tr>
+                                <td align="left" valign="top" class="fluid" style="padding-left: 20px; padding-right: 20px; padding-bottom: 40px;">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <tr>
+                                            <td align="center" valign="top" class="f-20" style="font-family: 'Open Sans', sans-serif; font-weight: bold; font-size: 25px; color: #222222;">
+                                                Our Latest Posts
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" valign="top" style="font-family: 'Open Sans', sans-serif; font-weight: normal; font-size: 12px; color: #222222; padding-bottom: 40px;">
+                                               Follow us on Instagram <a href="#" target="_blank" style="text-decoration: none; color: #222222;">@hotelalmadialghero</a> and Facebook
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" valign="top">
+                                                <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                    <tr>
+                                                        <!-- column -->
+                                                        <td align="left" valign="top" width="170" class="fluid-content">
+                                                            <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                                <tr>
+                                                                    <td align="left" valign="top">
+                                                                        <img src="https://i.ibb.co/S6KNJbH/post-1.png" class="fluid" width="170" alt="">
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left" valign="top" style="font-family: 'Open Sans', sans-serif; font-weight: normal; font-size: 10px; color: #3A3939; padding-top: 15px;">
+                                                                       Buon sabato pomeriggio dall' Hotel Alma  di Alghero. Con questo sole e questa  vista viene proprio voglia di berci su...
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                        <!-- column -->
+                                                        <td align="left" valign="top" width="170" class="fluid-content pt-20">
+                                                            <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                                <tr>
+                                                                    <td align="left" valign="top">
+                                                                        <a href="https://cdn.animaapp.com/projects/60507b15f33459074ca5b66f/releases/60509f5ea9df2d2c90d269d4/img/file-d2b6fb24-9720-4367-8435-f1f3dc0f503f--png@1x.png" target="_blank">
+                                                                           <img src="https://i.ibb.co/94d6CXn/post-2.png" width="170" class="fluid" alt=""> 
+                                                                        </a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left" valign="top" style="font-family: 'Open Sans', sans-serif; font-weight: normal; font-size: 10px; color: #3A3939; padding-top: 15px;">
+                                                                       Qualunque sia lo scopo del vostro  soggiorno ad Alghero come non rimanere indifferenti ad una vista cosí accativante..
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                        <!-- column -->
+                                                        <td align="left" valign="top" width="170" class="fluid-content pt-20">
+                                                            <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                                <tr>
+                                                                    <td align="left" valign="top">
+                                                                        <a href="https://cdn.animaapp.com/projects/60507b15f33459074ca5b66f/releases/60509f5ea9df2d2c90d269d4/img/file-194e5517-958a-4979-8183-30d93ce23310--png@1x.png" target="_blank">
+                                                                           <img src="https://i.ibb.co/WBbnd1Z/post-3.png" class="fluid" width="170" alt=""> 
+                                                                        </a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left" valign="top" style="font-family: 'Open Sans', sans-serif; font-weight: normal; font-size: 10px; color: #3A3939; padding-top: 15px;">
+                                                                      La giornata è iniziata con tanta  ispirazione e voglia di coccolare i  nostri ospiti, come sempre  d'altronde 😉😁
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- block 8 -->
+
+                            <!-- block 9 -->
+                            <tr>
+                                <td align="left" valign="top" class="fluid" bgcolor="#2E9CC5" style="padding-left: 20px; padding-right: 20px; padding-top: 20px; padding-bottom: 20px;">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <tr>
+                                            <td align="center" valign="top" style="font-family: 'Open Sans', sans-serif;">
+                                                <a href="https://cdn.animaapp.com/projects/60507b15f33459074ca5b66f/releases/60509f5ea9df2d2c90d269d4/img/logo-group-footer-1@1x.png" target="_blank">
+                                                    <img src="https://i.ibb.co/RvbRjH4/logo-group-footer.png" class="w-125" alt="">
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" valign="top" style="font-family: 'Open Sans', sans-serif; font-weight: normal; font-size: 10px; color: #ffffff78; padding-top: 15px;">
+                                              You received this email because you are a registered Alma di Alghero Hotel guest. To unsuscribe click here
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" valign="top" style="padding-top: 15px;">
+                                                <table border="0" cellpadding="0" cellspacing="0" width="100%" class="center">
+                                                    <tr>
+                                                        <td align="left" class="fluid-content center" valign="top" style="color: #FFEBEB; font-size: 12px; font-weight: normal;">
+                                                            Telephone: <a href="tel:+39079985616" target="_blank" style="text-decoration: none; color: #FFEBEB;">+39 079 985 616</a>
+                                                        </td>
+                                                        <td align="left" class="fluid-content center" valign="top" style="color: #FFEBEB; font-size: 12px; font-weight: normal;">
+                                                             <a href="mailto:booking@hotel-alma-alghero.it" target="_blank" style="text-decoration: none; color: #FFEBEB;">booking@hotel-alma-alghero.it</a>
+                                                        </td>
+                                                        <td align="left" class="fluid-content center" valign="top" style="color: #FFEBEB; font-size: 12px; font-weight: normal;">
+                                                            <a href="https://www.google.com/maps/place/Hotel+Alma+di+Alghero/@40.571761,8.3166878,17z/data=!3m1!4b1!4m8!3m7!1s0x12dcf1fa43b2e8cb:0x34674fcdd1abd6ac!5m2!4m1!1i2!8m2!3d40.571761!4d8.3188765" target="_blank" style="text-decoration: none; color: #FFEBEB;">Find us on Google Maps</a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- block 9 -->
+
+
+                            <!-- TYPOGRAPHY HERE
+                            <tr>
+                                <td align="left" valign="top" class="fluid" style="padding-left: 20px; padding-right: 20px;">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <tr>
+                                            <td align="left" valign="top" style="font-family: 'Open Sans', sans-serif;"></td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                             -->
+
+                        </table>
+                        <!-- // END TEMPLATE -->
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>

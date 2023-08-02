@@ -1,0 +1,490 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8">
+        <meta name="x-apple-disable-message-reformatting">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>*|MC:SUBJECT|*</title>
+        <style type="text/css">
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+            @media only screen and (max-width: 480px){
+                /* ===== TYPOGRAPHY ======== */
+                #bodyCell{padding: 0 !important;}
+                #templateContainer{width: 100% !important;}
+                .fluid{width: 100% !important; max-width: 100% !important;}
+                .fluid-content{display: block !important; width: 100% !important;}
+                /*display*/
+                .none{display: none !important;}
+                .block{display: block !important;}
+                /*wdith*/
+                .w-25{width: 25px !important;}
+                .w-50{width: 50px !important;}
+                .w-75{width: 75px !important;}
+                .w-100{width: 100px !important;}
+                .w-125{width: 125px !important;}
+                .w-150{width: 150px !important;}
+                .w-175{width: 175px !important;}
+                .w-200{width: 200px !important;}
+                .w-225{width: 225px !important;}
+                .w-250{width: 250px !important;}
+                .w-275{width: 275px !important;}
+                .w-300{width: 300px !important;}
+                /*padding*/
+                .p-0{padding: 0 !important;}
+                .pt-0{padding-top: 0 !important;}
+                .pb-0{padding-bottom: 0 !important;}
+                .pr-0{padding-right: 0 !important;}
+                .pl-0{padding-left: 0 !important;}
+
+                .p-10{padding: 10px !important;}
+                .pt-10{padding-top: 10px !important;}
+                .pb-10{padding-bottom: 10px !important;}
+                .pr-10{padding-right: 10px !important;}
+                .pl-10{padding-left: 10px !important;}
+
+                .p-15{padding: 15px !important;}
+                .pt-15{padding-top: 15px !important;}
+                .pb-15{padding-bottom: 15px !important;}
+                .pr-15{padding-right: 15px !important;}
+                .pl-15{padding-left: 15px !important;}
+
+                .p-20{padding: 20px !important;}
+                .pt-20{padding-top: 20px !important;}
+                .pb-20{padding-bottom: 20px !important;}
+                .pr-20{padding-right: 20px !important;}
+                .pl-20{padding-left: 20px !important;}
+
+                .p-25{padding: 25px !important;}
+                .pt-25{padding-top: 25px !important;}
+                .pb-25{padding-bottom: 25px !important;}
+                .pr-25{padding-right: 25px !important;}
+                .pl-25{padding-left: 25px !important;}
+
+                .p-30{padding: 30px !important;}
+                .pt-30{padding-top: 30px !important;}
+                .pb-30{padding-bottom: 30px !important;}
+                .pr-30{padding-right: 30px !important;}
+                .pl-30{padding-left: 30px !important;}
+
+                .p-35{padding: 35px !important;}
+                .pt-35{padding-top: 35px !important;}
+                .pb-35{padding-bottom: 35px !important;}
+                .pr-35{padding-right: 35px !important;}
+                .pl-35{padding-left: 35px !important;}
+
+                .p-40{padding: 40px !important;}
+                .pt-40{padding-top: 40px !important;}
+                .pb-40{padding-bottom: 40px !important;}
+                .pr-40{padding-right: 40px !important;}
+                .pl-40{padding-left: 40px !important;}
+
+                .p-45{padding: 45px !important;}
+                .pt-45{padding-top: 45px !important;}
+                .pb-45{padding-bottom: 45px !important;}
+                .pr-45{padding-right: 45px !important;}
+                .pl-45{padding-left: 45px !important;}
+
+                .p-50{padding: 50px !important;}
+                .pt-50{padding-top: 50px !important;}
+                .pb-50{padding-bottom: 50px !important;}
+                .pr-50{padding-right: 50px !important;}
+                .pl-50{padding-left: 50px !important;}
+
+                .px-0{padding-left: 0px !important; padding-right: 0px !important;}
+                .py-0{padding-top: 0px !important; padding-bottom: 0px !important;}
+
+                .px-10{padding-left: 10px !important; padding-right: 10px !important;}
+                .py-10{padding-top: 10px !important; padding-bottom: 10px !important;}
+
+                .px-15{padding-left: 15px !important; padding-right: 15px !important;}
+                .py-15{padding-top: 15px !important; padding-bottom: 15px !important;}
+
+                .px-20{padding-left: 20px !important; padding-right: 20px !important;}
+                .py-20{padding-top: 20px !important; padding-bottom: 20px !important;}
+
+                .px-25{padding-left: 25px !important; padding-right: 25px !important;}
+                .py-25{padding-top: 25px !important; padding-bottom: 25px !important;}
+
+                .px-30{padding-left: 30px !important; padding-right: 30px !important;}
+                .py-30{padding-top: 30px !important; padding-bottom: 30px !important;}
+
+                .px-35{padding-left: 35px !important; padding-right: 35px !important;}
+                .py-35{padding-top: 35px !important; padding-bottom: 35px !important;}
+
+                .px-40{padding-left: 40px !important; padding-right: 40px !important;}
+                .py-40{padding-top: 40px !important; padding-bottom: 40px !important;}
+
+                .px-45{padding-left: 45px !important; padding-right: 45px !important;}
+                .py-45{padding-top: 45px !important; padding-bottom: 45px !important;}
+
+                .px-50{padding-left: 50px !important; padding-right: 50px !important;}
+                .py-50{padding-top: 50px !important; padding-bottom: 50px !important;}
+
+                /*text center*/
+                .center{text-align: center !important;}
+                .left{text-align: left !important;}
+                .right{text-align: right !important;}
+                .valign-middle{vertical-align: middle !important;}
+                .valign-top{vertical-align: top !important;}
+                .valign-bottom{vertical-align: bottom !important;}
+
+                /*font-size*/
+                .f-8{font-size: 8px !important;}
+                .f-9{font-size: 9px !important;}
+                .f-10{font-size: 10px !important;}
+                .f-11{font-size: 11px !important;}
+                .f-12{font-size: 12px !important;}
+                .f-13{font-size: 13px !important;}
+                .f-14{font-size: 14px !important;}
+                .f-15{font-size: 15px !important;}
+                .f-16{font-size: 16px !important;}
+                .f-17{font-size: 17px !important;}
+                .f-18{font-size: 18px !important;}
+                .f-19{font-size: 19px !important;}
+                .f-20{font-size: 20px !important;}
+                .f-21{font-size: 21px !important;}
+                .f-22{font-size: 22px !important;}
+                .f-23{font-size: 23px !important;}
+                .f-24{font-size: 24px !important;}
+                .f-25{font-size: 25px !important;}
+                .f-26{font-size: 26px !important;}
+                .f-27{font-size: 27px !important;}
+                .f-28{font-size: 28px !important;}
+                .f-29{font-size: 29px !important;}
+                .f-30{font-size: 30px !important;}
+                .f-32{font-size: 32px !important;}
+                .f-34{font-size: 34px !important;}
+                .f-36{font-size: 36px !important;}
+                .f-38{font-size: 38px !important;}
+                .f-40{font-size: 40px !important;}
+                .f-42{font-size: 42px !important;}
+                .f-44{font-size: 44px !important;}
+                .f-46{font-size: 46px !important;}
+                .f-48{font-size: 48px !important;}
+                .f-50{font-size: 50px !important;}
+
+                /*fontwight*/
+                .bold{font-weight: 700 !important;}
+                .medium{font-weight: 500 !important;}
+                .semi-bold{font-weight: 600 !important;}
+                .black{font-weight: 900 !important;}
+                .m-center{margin: 0 auto;}
+                /* ===== TYPOGRAPHY ======== */
+            }
+        </style>
+    </head>
+    <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0" bgcolor="#f1efef" style="font-family: 'Montserrat', sans-serif; padding: 0; margin: 0;"  yahoo="fix">
+        <center>
+            <table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable" style="background-color: #f1efef;">
+                <tr>
+                    <td align="center" valign="top" id="bodyCell" style="padding-top: 20px; padding-bottom: 20px;">
+                        <!-- BEGIN TEMPLATE // -->
+                        <table border="0" cellpadding="0" cellspacing="0" width="600" id="templateContainer" style="background-color: #fff; ">
+                            <!-- PREHEADER PART -->
+                            <tr>
+                                <td align="center" valign="top" bgcolor="#F05553" background="https://i.ibb.co/ZmBPXY9/bg.png" class="px-25" style="padding-left: 65px;padding-right: 65px;background-color: #F05553;background: url(https://i.ibb.co/ZmBPXY9/bg.png);background-repeat: no-repeat;background-position: top center;background-size: 100% 100%;">
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateHeader">
+                                        <tr>
+                                            <td align="left" valign="top">
+                                                <img src="https://i.ibb.co/vDnWZk5/1.png" width="500" mc:edit="image_01" mc:label="image_01" style="max-width: 500px; vertical-align: middle;" class="fluid" alt="">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td valign="top" align="left" class="headerContent py-25" bgcolor="#fff" style="padding-left: 20px; padding-right: 20px; padding-top: 50px; padding-bottom: 50px;">
+                                                <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                    <tr>
+                                                        <td align="left" valign="top" class="f-20" mc:edit="content_00" style="font-family: 'Montserrat', sans-serif; font-size: 32px; font-weight: 600; color: #070707; line-height: 120%; padding-bottom: 30px;">
+                                                            Blog Title Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left" valign="top" class="f-12" mc:edit="content_001" style="font-family: 'Montserrat', sans-serif; font-size: 14px; font-weight: 400; color: #070707; line-height: 150%; padding-bottom: 30px;">
+                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left" valign="top">
+                                                            <a href="|*ARCHIVE*|" target="_blank" style="text-decoration: none;">
+                                                               <table border="0" cellspacing="0" cellpadding="0" width="150">
+                                                                    <tr>
+                                                                        <td align="center" mc:edit="content_002" valign="middle" width="150" height="45" bgcolor="#070707" style="background-color: #070707; color: #fff;font-family: 'Montserrat', sans-serif; line-height: 100%; font-size: 14px;">
+                                                                            Read the rest!
+                                                                        </td>
+                                                                    </tr>
+                                                                </table> 
+                                                            </a>                                                            
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- PREHEADER PART FINISH-->
+
+                            <!-- block 1 -->
+                            <tr>
+                                <td align="left" valign="top" class="fluid px-25" style="padding-left: 50px; padding-right: 50px; padding-bottom: 30px;">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <tr>
+                                            <td align="center" valign="top" style="font-family: 'Montserrat', sans-serif; padding-bottom: 20px;">
+                                                <a href="|*ARCHIVE*|" target="_blank">
+                                                    <img src="https://i.ibb.co/K6G96x5/logo.png" mc:edit="content_003" mc:label="content_003" width="300" style="max-width: 300px; vertical-align: middle;" class="w-200" alt="">
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left" valign="top" style="border-bottom: 1px solid #EAEAE9; padding-bottom: 30px;">
+                                                <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                    <tr>
+                                                        <td align="left" valign="top" width="180" class="fluid-content pr-0 center" style="padding-right: 20px;">
+                                                            <img src="https://i.ibb.co/WnTBzbh/2.png" mc:edit="content_004" mc:label="content_004" width="180" style="max-width: 180px; vertical-align: middle;" alt="">
+                                                        </td>
+                                                        <td align="left" valign="top" width="300" class="fluid-content pt-20">
+                                                            <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                                <tr>
+                                                                    <td align="left" valign="top" mc:edit="content_005" style="font-family: 'Montserrat', sans-serif; font-size: 14px; font-weight: 400; color: #070707; line-height: 150%; padding-bottom: 15px;">
+                                                                        We connect local people looking for their hangout spot for the evening.
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left" valign="top" mc:edit="content_006" style="font-family: 'Montserrat', sans-serif; font-size: 14px; font-weight: 400; color: #070707; line-height: 150%; padding-bottom: 15px;">
+                                                                        How we do it is by offering guests one complimentary drink when they come in - which means more potential happy (thirsty) customers coming into your venue!
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left" valign="top" mc:edit="content_070" style="font-family: 'Montserrat', sans-serif; font-size: 14px; font-weight: 400; color: #070707; line-height: 150%; padding-bottom: 15px;">
+                                                                        It’s 100% free for you, the only cost is a few bucks for the complimentary drink, which is nothing considering you'll have a customer who definitely doesn't plan on having just that one drink.
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- block 1 -->
+
+                            <!-- block 2 -->
+                            <tr>
+                                <td align="left" valign="top" class="fluid px-25" style="padding-left: 50px; padding-right: 50px;">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <tr>
+                                            <td align="left" valign="middle">
+                                                <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                    <tr>                                                        
+                                                        <td align="left" valign="middle" width="300" class="fluid-content">
+                                                            <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                                <tr>
+                                                                    <td align="left" valign="top" mc:edit="content_008" style="font-family: 'Montserrat', sans-serif; font-size: 22px; font-weight: 600; color: #070707; line-height: 150%; padding-bottom: 15px;">
+                                                                        How it works
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left" valign="top" style="padding-bottom: 20px;">
+                                                                        <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                                            <tr>
+                                                                                <td align="left" valign="middle" mc:edit="content_009" style="font-family: 'Montserrat', sans-serif; font-size: 25px; font-weight: 600; color: #070707; line-height: 150%; padding-right: 15px;">
+                                                                                    1
+                                                                                </td>
+                                                                                <td align="left" valign="middle" mc:edit="content_010" style="font-family: 'Montserrat', sans-serif; font-size: 14px; font-weight: 600; color: #070707; line-height: 150%;">
+                                                                                     Our members pick your venue.
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left" valign="top" style="padding-bottom: 20px;">
+                                                                        <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                                            <tr>
+                                                                                <td align="left" valign="middle" mc:edit="content_0011" style="font-family: 'Montserrat', sans-serif; font-size: 25px; font-weight: 600; color: #070707; line-height: 150%; padding-right: 15px;">
+                                                                                    2
+                                                                                </td>
+                                                                                <td align="left" valign="middle" mc:edit="content_0012" style="font-family: 'Montserrat', sans-serif; font-size: 14px; font-weight: 600; color: #070707; line-height: 150%;">
+                                                                                    Once they arrive, they scan our QR code.
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left" valign="top" style="padding-bottom: 20px;">
+                                                                        <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                                            <tr>
+                                                                                <td align="left" valign="middle" mc:edit="content_0013" style="font-family: 'Montserrat', sans-serif; font-size: 25px; font-weight: 600; color: #070707; line-height: 150%; padding-right: 15px;">
+                                                                                    3
+                                                                                </td>
+                                                                                <td align="left" valign="middle" mc:edit="content_0140" style="font-family: 'Montserrat', sans-serif; font-size: 14px; font-weight: 600; color: #070707; line-height: 150%;">
+                                                                                    They get their drink and tip the bartender
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left" valign="top" style="padding-bottom: 20px;">
+                                                                        <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                                            <tr>
+                                                                                <td align="left" valign="middle" mc:edit="content_0015" style="font-family: 'Montserrat', sans-serif; font-size: 25px; font-weight: 600; color: #070707; line-height: 150%; padding-right: 15px;">
+                                                                                    4
+                                                                                </td>
+                                                                                <td align="left" valign="middle" mc:edit="content_0016" style="font-family: 'Montserrat', sans-serif; font-size: 14px; font-weight: 600; color: #070707; line-height: 150%;">
+                                                                                    They keep drinking. You make money.
+                                                                                    Everybody wins.                                                                                    
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left" valign="top" style="padding-bottom: 20px;">
+                                                                        <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                                            <tr>
+                                                                                <td align="left" valign="middle" style="font-family: 'Montserrat', sans-serif; font-size: 22px; font-weight: 600; color: #070707; line-height: 150%; padding-right: 15px;">
+                                                                                    &nbsp;
+                                                                                </td>
+                                                                                <td align="left" valign="middle" mc:edit="content_0017" style="font-family: 'Montserrat', sans-serif; font-size: 14px; font-weight: 600; color: #828B93; line-height: 150%;">
+                                                                                    <a href="|*ARCHIVE*|" target="_blank" style="color: #828B93; text-decoration: none;">
+                                                                                        Applying only takes 30 seconds! > 
+                                                                                    </a>                                                                          
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+
+                                                            </table>
+                                                        </td>
+                                                        <td align="left" valign="middle" width="180" style="padding-left: 20px;" class="fluid-content pt-20 pl-0 center pb-30">
+                                                            <img src="https://i.ibb.co/hR0nHwh/3.png" width="180" mc:edit="content_0018" mc:label="content_0018" style="max-width: 180px; vertical-align: middle;" alt="">
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- block 2 -->
+                            
+
+                            <!-- block 3 -->
+                            <tr>
+                                <td align="left" valign="top" class="fluid" bgcolor="#E9F3F6" style="padding-left: 50px; padding-right: 50px; background-color: #E9F3F6; padding-top: 30px; padding-bottom: 30px;">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <tr>
+                                            <td align="left" valign="top">
+                                                <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                    <tr>
+                                                        <td align="left" valign="middle" width="180" style="padding-right: 20px;" class="fluid-content pr-0 center">
+                                                            <a href="|*ARCHIVE*|" target="_blank">
+                                                                <img src="https://i.ibb.co/sRVbNJm/4.png" width="180" mc:edit="content_0019" mc:label="content_0019" style="max-width: 180px; vertical-align: middle;" alt="">
+                                                            </a>                                                            
+                                                        </td>
+                                                        <td align="left" valign="middle" width="300" class="fluid-content pt-20">
+                                                            <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                                <tr>
+                                                                    <td align="left" valign="middle" mc:edit="content_0020" style="font-family: 'Montserrat', sans-serif; font-size: 12px; font-weight: 600; color: #070707; line-height: 100%;padding-bottom: 5px;">
+                                                                        Learn more about being a Venue Partner
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left" valign="middle" mc:edit="content_0021" style="font-family: 'Montserrat', sans-serif; font-size: 14px; font-weight: 700; color: #070707; line-height: 100%;">
+                                                                        <a href="|*ARCHIVE*|" target="_blank" style="text-decoration: none; color: #D52423;">
+                                                                            Watch Our Trailer on Youtube!
+                                                                        </a>                                                                        
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- block 3 -->
+
+
+                            <!-- footer -->
+                            <tr>
+                                <td align="left" valign="top" class="fluid" bgcolor="#000000" style="padding-left: 50px; padding-right: 50px; background-color: #000000; padding-top: 50px; padding-bottom: 30px;">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <tr>
+                                            <td align="left" valign="top" style="font-family: 'Montserrat', sans-serif;">
+                                                <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                    <tr>
+                                                        <td align="left" valign="top" mc:edit="content_0022" class="fluid-content center" style="font-size: 18px; font-family: 'Montserrat', sans-serif; font-weight: normal; color: #fff; line-height: 150%;">
+                                                            Apply to be a Venue Partner drinktheTown Blog
+                                                        </td>
+                                                        <td align="left" valign="middle" class="fluid-content pt-20">
+                                                            <table border="0" cellspacing="0" cellpadding="0" class="m-center">
+                                                                <tr>
+                                                                    <td align="left" valign="middle" style="padding-right: 20px;">
+                                                                        <a href="|*ARCHIVE*|" target="_blank">
+                                                                            <img src="https://i.ibb.co/w7djTtC/facebook.png" width="10" style="max-width: 10px; vertical-align: middle;" alt="">
+                                                                        </a>
+                                                                    </td>
+                                                                    <td align="left" valign="middle" style="padding-right: 20px;">
+                                                                        <a href="|*ARCHIVE*|" target="_blank">
+                                                                            <img src="https://i.ibb.co/TMBW1Bs/twitter.png" width="22" style="max-width: 22px; vertical-align: middle;" alt="">
+                                                                        </a>
+                                                                    </td>
+                                                                    <td align="left" valign="middle">
+                                                                        <a href="|*ARCHIVE*|" target="_blank">
+                                                                            <img src="https://i.ibb.co/fp9HSyd/instagram.png" width="20" style="max-width: 20px; vertical-align: middle;" alt="">
+                                                                        </a>
+                                                                    </td>
+                                                                    <td align="left" valign="middle" style="padding-left: 40px;">
+                                                                        <a href="|*ARCHIVE*|" target="_blank">
+                                                                            <img src="https://i.ibb.co/kMPWz56/drink.png" width="50" style="max-width: 50px; vertical-align: middle;" alt="">
+                                                                        </a>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>                                            
+                                            <td align="center" valign="middle" style="padding-top: 30px;">
+                                                <a href="|*ARCHIVE*|" mc:edit="content_00s" target="_blank" style="text-decoration: none; color: #ffff; font-size: 12px;">
+                                                    Unsubscribe
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- footer -->
+
+
+                            <!-- TYPOGRAPHY HERE
+                            <tr>
+                                <td align="left" valign="top" class="fluid" style="padding-left: 50px; padding-right: 50px;">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <tr>
+                                            <td align="left" valign="top" style="font-family: 'Montserrat', sans-serif;"></td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                             -->
+
+                        </table>
+                        <!-- // END TEMPLATE -->
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>
